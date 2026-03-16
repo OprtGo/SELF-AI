@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Başlangıç Datasheet</title>
+  <style>
+
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.25;
+    color: #1a1a1a;
+    background: #f5f4ef;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 32px;
+    background: #f5f4ef;
+  }
+
+  /* ---------- TYPOGRAPHY ---------- */
+  h1.main-title {
+    font-size: 2em;
+    font-weight: 700;
+    color: #0f1e40;
+    margin-bottom: 4px;
+    border-bottom: 3px solid #0f1e40;
+    padding-bottom: 8px;
+  }
+  h2.bolum {
+    font-size: 1.35em;
+    font-weight: 700;
+    color: #ffffff;
+    background: #0f1e40;
+    padding: 8px 14px;
+    margin: 36px 0 14px 0;
+    border-radius: 3px;
+  }
+  h3.section {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #0f1e40;
+    margin: 22px 0 8px 0;
+    border-left: 4px solid #c0392b;
+    padding-left: 10px;
+  }
+  h4.subsection {
+    font-size: 1em;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 14px 0 6px 0;
+  }
+  p {
+    margin: 0 0 8px 0;
+  }
+
+  /* ---------- RED BULLETS ---------- */
+  ul.red {
+    list-style: disc;
+    padding-left: 22px;
+    margin: 6px 0;
+  }
+  ul.red li {
+    margin-bottom: 4px;
+  }
+  ul.red li::marker {
+    color: #c0392b;
+    font-size: 1.1em;
+  }
+
+  /* ---------- NUMBERED LISTS ---------- */
+  ol.styled {
+    padding-left: 22px;
+    margin: 6px 0;
+  }
+  ol.styled li {
+    margin-bottom: 5px;
+  }
+
+  /* ---------- EXAMPLES / INDENT ---------- */
+  .example-block {
+    padding-left: 1.25cm;
+    border-left: 2px solid #ddd;
+    margin: 8px 0 8px 0;
+    color: #333;
+  }
+
+  /* ---------- CODE BLOCKS ---------- */
+  pre {
+    background: #1e1e1e;
+    color: #d4d4d4;
+    padding: 14px 16px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 13px;
+    margin: 10px 0;
+    line-height: 1.4;
+  }
+  code {
+    font-family: 'Consolas', 'Cascadia Code', 'Courier New', monospace;
+  }
+  p code, li code {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.9em;
+  }
+
+  /* ---------- TABLES ---------- */
+  .table-wrap {
+    overflow-x: auto;
+    margin: 12px 0;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13.5px;
+  }
+  thead {
+    background: #0f1e40;
+    color: #fff;
+  }
+  thead th {
+    padding: 8px 10px;
+    text-align: left;
+    font-weight: 600;
+  }
+  tbody tr:nth-child(even) { background: #f7f7f7; }
+  tbody tr:nth-child(odd)  { background: #ffffff; }
+  tbody td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+  }
+
+  /* ---------- IMAGES ---------- */
+  .img-block {
+    text-align: center;
+    margin: 16px auto;
+    max-width: 680px;
+  }
+  .img-block img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+  }
+  .img-block figcaption {
+    font-size: 0.82em;
+    color: #666;
+    margin-top: 5px;
+    font-style: italic;
+  }
+
+  /* ---------- INFO / NOTE BOXES ---------- */
+  .info-box {
+    background: #eef4fb;
+    border-left: 4px solid #2980b9;
+    padding: 10px 14px;
+    margin: 10px 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .warn-box {
+    background: #fff8e1;
+    border-left: 4px solid #f39c12;
+    padding: 10px 14px;
+    margin: 10px 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .scenario-box {
+    background: #f0faf4;
+    border: 1px solid #27ae60;
+    border-radius: 5px;
+    padding: 12px 16px;
+    margin: 10px 0;
+  }
+  .scenario-box .scenario-title {
+    font-weight: 700;
+    color: #1a6b3a;
+    margin-bottom: 6px;
+  }
+  .prompt-box {
+    background: #fafafa;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    padding: 10px 14px;
+    font-style: italic;
+    margin: 8px 0;
+    color: #333;
+  }
+
+  /* ---------- LINKS ---------- */
+  a { color: #1a56db; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ---------- DIVIDER ---------- */
+  hr { border: none; border-top: 1px solid #ddd; margin: 24px 0; }
+
+  /* ---------- TOC ---------- */
+  .toc {
+    background: #f8f8f4;
+    border: 1px solid #ddd;
+    padding: 16px 20px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+  }
+  .toc h2 { font-size: 1em; margin: 0 0 8px 0; color: #0f1e40; }
+  .toc ol { margin: 0; padding-left: 20px; }
+  .toc li { margin-bottom: 3px; font-size: 0.93em; }
+  .toc a { color: #1a56db; }
+
+  /* ---------- BADGE ---------- */
+  .badge {
+    display: inline-block;
+    background: #c0392b;
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: 700;
+    padding: 1px 7px;
+    border-radius: 10px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1 class="main-title">AI Başlangıç Datasheet</h1>
+  <p style="color:#555; margin-bottom:24px; font-size:0.9em;">Yapay Zekâya Yeni Başlayanlar İçin Kapsamlı Rehber</p>
+  <nav class="toc">
+<h2>&#128366; İçindekiler</h2>
+<ol>
+  <li><a href="#bolum1">Bölüm 1 — AI Başlangıç Datasheet</a></li>
+  <li><a href="#bolum2">Bölüm 2 — Prompt Yazma Rehberi</a></li>
+  <li><a href="#bolum3">Bölüm 3 — Araçlar ve Ekosistem</a></li>
+  <li><a href="#bolum4">Bölüm 4 — Projeler ve GitHub Pratiği</a></li>
+  <li><a href="#bolum5">Bölüm 5 — Doküman Tasarımı ve Kullanım Mantığı</a></li>
+</ol>
+</nav>
+  
+<h2 class="bolum" id="bolum1">BÖLÜM 1 — AI BAŞLANGIÇ DATASHEET</h2>
+
+<h3 class="section">AI ile Neleri Yapabilirsin, Neleri Yapamazsın?</h3>
+<p>Yapay zekâ araçları bugün yazı yazmaktan kod yazmaya, araştırma taslakları hazırlamaktan fikir üretmeye kadar birçok alanda yardımcı olabilir. Doğru kullanıldığında AI; bir konu hakkında hızlı özetler çıkarabilir, uzun metinleri sadeleştirebilir, proje planı hazırlayabilir, içerik fikirleri üretebilir veya kod yazarken yardımcı olabilir. Özellikle tekrar eden işleri hızlandırma, ilk taslak üretme ve farklı seçenekler görme konusunda oldukça güçlüdür.</p>
+
+<h4 class="subsection">En Yaygın Kullanım Alanları</h4>
+<ul class="red">
+  <li>Metin yazma ve özetleme</li>
+  <li>Araştırma taslağı hazırlama</li>
+  <li>Fikir üretme ve planlama</li>
+  <li>Yazılım geliştirme sırasında kod yardımcılığı</li>
+  <li>Temel veri analizi</li>
+  <li>Görsel içerik fikirleri oluşturma</li>
+</ul>
+<p>Birçok kişi AI'yı <em>"ilk taslak üreticisi"</em> gibi kullanır ve ardından ortaya çıkan içeriği kendisi düzenler.</p>
+
+<h4 class="subsection">Dikkat Edilmesi Gerekenler</h4>
+<ul class="red">
+  <li>AI her zaman doğru cevap vermez. Modelin verdiği bilgiler hatalı veya eksik olabilir.</li>
+  <li>AI sistemlerinin belirli bir <em>bağlam penceresi</em> vardır; çok uzun bilgileri aynı anda hatırlayamazlar.</li>
+  <li>Gizli bilgiler, müşteri verileri, şifreler veya özel dokümanlar bu sistemlerle paylaşılmamalıdır.</li>
+  <li>Özellikle önemli konularda mutlaka kaynak kontrolü yapmak gerekir.</li>
+</ul>
+
+<hr>
+
+<h3 class="section" id="sozluk">Temel Kavramlar Sözlüğü</h3>
+<p>AI dünyasında sık karşılaşılan bazı kavramları anlamak, araçları daha doğru kullanmayı sağlar.</p>
+
+<figure class="img-block">
+  <img src="/images/01_neural_net.jpg" alt="Yapay sinir ağı diyagramı" loading="lazy">
+  <figcaption>Derin öğrenme modellerinin temelini oluşturan yapay sinir ağı mimarisi</figcaption>
+</figure>
+
+<h4 class="subsection">Yapay Zekâ (Artificial Intelligence)</h4>
+<p>Bilgisayarların insan benzeri görevleri yapmasını sağlayan geniş bir teknoloji alanıdır. Örneğin bir sistemin metin yazması veya görseller üretmesi AI kapsamına girer.</p>
+
+<h4 class="subsection">Makine Öğrenmesi (Machine Learning)</h4>
+<p>Bilgisayarların açıkça programlanmadan, verilerden öğrenmesini sağlayan yöntemlerdir. Örneğin spam e-posta tespit sistemleri bu kategoriye girer.</p>
+
+<h4 class="subsection">Derin Öğrenme (Deep Learning)</h4>
+<p>Makine öğrenmesinin bir alt alanıdır ve büyük sinir ağları kullanarak karmaşık problemleri çözmeye odaklanır. Günümüzdeki büyük dil modellerinin çoğu bu yöntemi kullanır.</p>
+
+<h4 class="subsection">LLM (Large Language Model) — Büyük Dil Modeli</h4>
+<p>Büyük miktarda metin üzerinde eğitilmiş ve doğal dil ile çalışabilen modellerdir. ChatGPT, Gemini veya Claude gibi sistemler bu kategoriye girer.</p>
+
+<figure class="img-block">
+  <img src="/images/02_transformer.jpg" alt="Transformer model mimarisi" loading="lazy">
+  <figcaption>Transformer mimarisi — modern LLM'lerin temel yapı taşı (Vaswani et al., 2017)</figcaption>
+</figure>
+
+<h4 class="subsection">Model</h4>
+<p>Yapay zekânın kendisidir. Veriler üzerinde eğitilmiş ve sorulara cevap veren sistem.</p>
+
+<h4 class="subsection">Inference (Çalıştırma)</h4>
+<p>Eğitilmiş bir modelin gerçek kullanım sırasında sorulara cevap üretmesi sürecidir.</p>
+
+<h4 class="subsection">Token</h4>
+<p>Modellerin metni işlerken kullandığı küçük birimdir. Bir kelime, kelimenin parçası veya sembol olabilir.</p>
+
+<figure class="img-block">
+  <img src="/images/03_token.jpg" alt="Token görselleştirmesi" loading="lazy">
+  <figcaption>Bir metin cümlesinin token'lara ayrılması örneği</figcaption>
+</figure>
+
+<h4 class="subsection">Context Window (Bağlam Penceresi)</h4>
+<p>Modelin aynı anda hatırlayabildiği metin miktarıdır. Bu sınırı aşan bilgiler "unutulur".</p>
+
+<h4 class="subsection">Prompt</h4>
+<p>Yapay zekâya verdiğiniz talimat veya sorudur.</p>
+
+<h4 class="subsection">Sistem Talimatı – Kullanıcı Talimatı Ayrımı</h4>
+<p>Sistem talimatı modelin genel davranışını belirler (örneğin <em>"öğretmen gibi davran"</em>), kullanıcı talimatı ise o anki görevi açıklar.</p>
+
+<h4 class="subsection">Temperature</h4>
+<p>Modelin cevap üretirken ne kadar yaratıcı olacağını belirleyen ayardır. Yüksek değer → daha yaratıcı ama daha az tahmin edilebilir. Düşük değer → daha tutarlı ama daha az çeşitli.</p>
+
+<h4 class="subsection">Top_p</h4>
+<p>Modelin olasılık dağılımından ne kadar geniş seçim yapacağını belirleyen başka bir yaratıcılık ayarıdır.</p>
+
+<h4 class="subsection">Hallucination (Halüsinasyon)</h4>
+<p>Modelin gerçekte olmayan bilgileri üretmesi durumudur. Bu nedenle önemli bilgiler mutlaka doğrulanmalıdır.</p>
+
+<hr>
+
+<h3 class="section">Gelişmiş Kavramlara Kısa Bakış</h3>
+
+<h4 class="subsection">RAG (Retrieval Augmented Generation)</h4>
+<p>Modelin dış bir doküman veya veri kaynağından bilgi alarak cevap üretmesi yöntemidir. Model "ezberinden" değil, verilen belgeden yanıt verir.</p>
+
+<figure class="img-block">
+  <img src="/images/04_rag.jpg" alt="RAG mimarisi diyagramı" loading="lazy">
+  <figcaption>RAG akışı: Doküman yükleme → Embedding → Vektör arama → Cevap üretimi</figcaption>
+</figure>
+
+<h4 class="subsection">Embedding</h4>
+<p>Metinlerin veya verilerin sayısal temsilleridir. Bu sayede sistemler benzer içerikleri bulabilir.</p>
+
+<figure class="img-block">
+  <img src="/images/05_embedding.jpg" alt="Embedding vektör uzayı" loading="lazy">
+  <figcaption>Kelimelerin ve cümlelerin yüksek boyutlu uzayda temsil edilmesi</figcaption>
+</figure>
+
+<h4 class="subsection">Fine-tuning</h4>
+<p>Bir modelin belirli bir görev için ek veriyle yeniden eğitilmesidir.</p>
+
+<figure class="img-block">
+  <img src="/images/06_finetune.jpg" alt="Fine-tuning akışı" loading="lazy">
+  <figcaption>Temel model üzerine ek veriyle fine-tuning süreci</figcaption>
+</figure>
+
+<h4 class="subsection">Agent</h4>
+<p>Yapay zekânın birden fazla araç kullanarak görevleri adım adım gerçekleştirdiği sistemlerdir. Tek bir soru-cevap yerine, planlama → arama → hesaplama → cevap gibi bir döngüde çalışır.</p>
+
+<figure class="img-block">
+  <img src="/images/07_agent.jpg" alt="Agent sistemi akışı" loading="lazy">
+  <figcaption>AI agent'ın araç kullanarak çok adımlı görev yürütmesi</figcaption>
+</figure>
+
+<h4 class="subsection">Tool Use (Araç Kullanımı)</h4>
+<p>Modelin hesaplama, arama veya API gibi dış araçlara bağlanarak çalışmasıdır.</p>
+
+<h4 class="subsection">Multimodal</h4>
+<p>Metin, görsel ve ses gibi farklı veri türlerini aynı anda işleyebilen AI sistemlerini ifade eder.</p>
+
+<hr>
+
+<h3 class="section">İlk Gün Rehberi: 30 Dakikada Sonuç Alma</h3>
+<p>Yapay zekâdan hızlıca faydalanmanın en iyi yolu doğru görev seçmektir. Ölçülebilir bir çıktı hedeflemek işleri kolaylaştırır.</p>
+
+<h4 class="subsection">İyi Sonuç Veren Görev Örnekleri</h4>
+<ul class="red">
+  <li><em>"Bu metni özetle"</em></li>
+  <li><em>"Bu toplantı notlarından aksiyon listesi çıkar"</em></li>
+  <li><em>"Bu konu için 5 içerik fikri üret"</em></li>
+</ul>
+
+<h4 class="subsection">İyi Sonuç Almak İçin 4 Adım</h4>
+<ol class="styled">
+  <li><strong>Doğru görev seç:</strong> Ölçülebilir ve net bir çıktı hedefle.</li>
+  <li><strong>Yeterli bağlam ver:</strong> Örnek metin, veri veya açıklama eklemek çıktıyı ciddi şekilde iyileştirir.</li>
+  <li><strong>Format belirt:</strong> Madde listesi, tablo, JSON, e-posta taslağı veya adım adım plan gibi.</li>
+  <li><strong>Kalite kontrol yap:</strong> Bilgiler mantıklı mı? Sayılar doğru mu? Kaynak var mı?</li>
+</ol>
+
+<hr>
+
+<h3 class="section">Güvenlik, Gizlilik ve Doğru Kullanım</h3>
+<div class="warn-box">
+  <strong>&#9888; Şu bilgileri AI ile paylaşmayın:</strong><br>
+  Müşteri verileri, şifreler, gizli belgeler, kişisel bilgiler.
+</div>
+
+<p>Kaynak kullanımı da önemlidir. Alıntı ve parafraz arasındaki farkı bilmek gerekir. Doğrulanmamış iddialar açıkça belirtilmelidir.</p>
+
+<h4 class="subsection">Yanlış Bilgi Riskini Azaltmak İçin</h4>
+<ul class="red">
+  <li>Modelden kaynak istemek</li>
+  <li>Varsayımları listelemesini istemek</li>
+  <li>Kritik bilgileri farklı kaynaklardan doğrulamak</li>
+</ul>
+
+  
+<h2 class="bolum" id="bolum2">BÖLÜM 2 — PROMPT YAZMA REHBERİ</h2>
+
+<figure class="img-block">
+  <img src="/images/08_prompt.jpg" alt="Prompt mühendisliği diyagramı" loading="lazy">
+  <figcaption>Etkili bir prompt'un bileşenleri ve nasıl çalıştığı</figcaption>
+</figure>
+
+<h3 class="section">Prompt'un Anatomisi</h3>
+<p>Etkili bir prompt genellikle şu bileşenleri içerir:</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr>
+      <th>Bileşen</th>
+      <th>Açıklama</th>
+      <th>Örnek</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Amaç</strong></td><td>Modelin hangi problemi çözmesi gerektiği</td><td>"Bu metni özetle"</td></tr>
+    <tr><td><strong>Bağlam</strong></td><td>Konu hakkında arka plan bilgisi</td><td>"Bir e-ticaret sitesi için yazıyorum"</td></tr>
+    <tr><td><strong>Kısıtlar</strong></td><td>Uzunluk, stil veya format sınırları</td><td>"En fazla 3 madde, sade dil"</td></tr>
+    <tr><td><strong>Rol</strong></td><td>Modelin hangi perspektiften cevap vereceği</td><td>"Deneyimli bir editör gibi davran"</td></tr>
+    <tr><td><strong>Örnekler</strong></td><td>İstenen sonuca benzer örnekler</td><td>"Şöyle bir çıktı istiyorum: …"</td></tr>
+    <tr><td><strong>Çıktı Formatı</strong></td><td>Tablo, liste, JSON gibi belirli bir yapı</td><td>"Sonucu JSON olarak ver"</td></tr>
+    <tr><td><strong>Değerlendirme Ölçütü</strong></td><td>İyi bir cevabın nasıl olması gerektiği</td><td>"Aksiyon alınabilir olmasına dikkat et"</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h3 class="section">Yeni Başlayanlar İçin 5 Pratik Prompt Şablonu</h3>
+
+<h4 class="subsection">1. Bana Soru Sorarak Netleştir</h4>
+<p>Modelin eksik bilgileri sorarak görevi netleştirmesini sağlar.</p>
+<div class="example-block"><div class="prompt-box">"Sana bir görev vereceğim. Başlamadan önce, görevi daha iyi yapabilmem için bana 3 soru sor."</div></div>
+
+<h4 class="subsection">2. Adım Adım Plan Çıkar</h4>
+<p>Bir hedefi gerçekleştirmek için gerekli adımları sıralamasını ister.</p>
+<div class="example-block"><div class="prompt-box">"[Hedef] için adım adım bir uygulama planı çıkar. Her adımda ne yapılacağını ve neden önemli olduğunu açıkla."</div></div>
+
+<h4 class="subsection">3. Özetle ve Aksiyon Listesi Çıkar</h4>
+<p>Uzun metinlerden uygulanabilir görevler üretir.</p>
+<div class="example-block"><div class="prompt-box">"Aşağıdaki metni analiz et. Önce 3 maddelik kısa bir özet çıkar. Sonra metinden çıkarılabilecek en önemli 2 öneriyi yaz. Çıktıyı madde listesi formatında ver."</div></div>
+
+<h4 class="subsection">4. İki Alternatif Üret ve Artı/Eksi Analizi Yap</h4>
+<p>Karar verme süreçlerinde farklı seçenekleri değerlendirmeye yardımcı olur.</p>
+<div class="example-block"><div class="prompt-box">"[Konu] için iki farklı yaklaşım öner. Her birinin güçlü ve zayıf yönlerini ayrı ayrı listele."</div></div>
+
+<h4 class="subsection">5. Format Zorunluluğu Kullan</h4>
+<p>Modelden tablo, JSON veya belirli bir yapı içinde cevap üretmesini ister.</p>
+<div class="example-block"><div class="prompt-box">"Cevabını yalnızca şu JSON formatında ver: {{ \"özet\": \"...\" , \"aksiyonlar\": [ ] , \"riskler\": [ ] }}"</div></div>
+
+<hr>
+
+<h3 class="section">Prompt İyileştirme (Debug) Yaklaşımı</h3>
+<p>İlk cevap genellikle bir taslaktır. Daha iyi sonuç almak için prompt'u geliştirmek gerekir.</p>
+
+<h4 class="subsection">Belirsizlik Avı</h4>
+<p>Modelin yanlış veya eksik cevap vermesinin en yaygın nedeni eksik bilgidir. Bu durumda modele daha net veri vermek gerekir.</p>
+
+<h4 class="subsection">Çıktı Kalitesini Artırma</h4>
+<ul class="red">
+  <li>Örnek eklemek</li>
+  <li>Kısıtlar koymak</li>
+  <li>Değerlendirme ölçütü tanımlamak</li>
+</ul>
+
+<h4 class="subsection">Uzun İstekleri Parçalara Bölme</h4>
+<p>Büyük görevleri küçük adımlara ayırmak genellikle daha doğru sonuç üretir. Modele her seferinde tek bir netleştirilmiş soru sorun.</p>
+
+<div class="info-box">
+  <strong>&#128161; Pratik İpucu:</strong> Hatalı bir prompt'u düzeltirken tüm prompt'u silip yeniden yazmak yerine, sadece eksik/hatalı bölümü güncelleyin. Böylece neyin işe yaradığını daha kolay anlarsınız.
+</div>
+
+<hr>
+
+<h3 class="section">Etkili Kullanım Alışkanlıkları</h3>
+
+<h4 class="subsection">İterasyon</h4>
+<p>AI ile çalışırken iterasyon önemlidir. İlk yanıt çoğu zaman sadece başlangıçtır. Soruyu yeniden sormak, farklı format istemek veya ek bilgi vermek sonucu iyileştirir.</p>
+
+<h4 class="subsection">Sürümleme Yaklaşımı</h4>
+<p>Aynı görev için farklı prompt'lar deneyerek hangisinin daha iyi sonuç verdiğini görmek mümkündür. Prompt'larınızı bir dosyada biriktirin.</p>
+
+<h4 class="subsection">Kontrol Listesi</h4>
+<ul class="red">
+  <li>Kaynak var mı?</li>
+  <li>Sayılar mantıklı mı?</li>
+  <li>İçerik tutarlı mı?</li>
+  <li>Format istenen yapıya uygun mu?</li>
+</ul>
+
+<hr>
+
+<h3 class="section">AI ile Birlikte Yazma (Co-Writing)</h3>
+<p>Yapay zekâ en iyi <em>"taslak üretici"</em> olarak kullanılır. Tipik bir çalışma akışı:</p>
+
+<ol class="styled">
+  <li>AI'dan ilk taslağı oluşturmasını istemek</li>
+  <li>Taslağı düzenlemek veya genişletmek</li>
+  <li>Son okuma ve doğrulama yapmak</li>
+</ol>
+
+<p>Bu yöntem içerik üretiminde büyük zaman kazandırabilir.</p>
+
+<hr>
+
+<h3 class="section">AI'yı Öğretmen Gibi Kullanmak</h3>
+<p>Yapay zekâ öğrenme süreçlerinde de etkili bir araç olabilir. Yeni kavramları açıklayabilir, örnek problemler üretebilir veya quiz hazırlayabilir.</p>
+
+<h4 class="subsection">Pratik Yöntemler</h4>
+<ul class="red">
+  <li>Bir konuyu öğrenirken AI'dan farklı açıklamalar istemek</li>
+  <li>Basit örnekler talep etmek</li>
+  <li>Seviyenizi belirtmek: <em>"Bunu 10 yaşında bir çocuğa anlatır gibi açıkla"</em></li>
+  <li>Quiz oluşturmasını istemek: <em>"Bu konuyla ilgili 5 soru sor ve cevaplarımı değerlendir"</em></li>
+</ul>
+
+<div class="example-block"><div class="prompt-box">"[Konu] hakkında hiçbir ön bilgim yok. Önce genel bir özet ver, sonra en temel 3 kavramı örnek vererek açıkla, ardından bana 2 soru sor."</div></div>
+
+<hr>
+
+<h3 class="section">Kendi Kendini Değerlendirme</h3>
+<p>Üretilen çıktıyı değerlendirirken şu sorular sorulabilir:</p>
+
+<ul class="red">
+  <li>İçerik anlaşılır mı?</li>
+  <li>Bilgiler doğru mu?</li>
+  <li>Sonuç uygulanabilir mi?</li>
+  <li>Format istenen yapıya uygun mu?</li>
+  <li>Aksiyon alınabilir mi?</li>
+  <li>Gereksiz uzatma var mı?</li>
+</ul>
+
+<p>Bu basit kontrol listesi, AI çıktılarının kalitesini hızlıca değerlendirmeye yardımcı olur.</p>
+
+  
+<h2 class="bolum" id="bolum3">BÖLÜM 3 — ARAÇLAR VE EKOSİSTEM</h2>
+
+<h3 class="section">Araç Seçimi: Hangi İş İçin Hangi Araç?</h3>
+<p>Doğru araç seçimi, yapay zekâ kullanımında hız kazandırır. Her iş için aynı aracı kullanmaya çalışmak verimsizdir.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>İş Türü</th><th>Temel Araç İhtiyacı</th><th>Örnek Görev</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Metin Üretimi / Özet</strong></td>
+      <td>Bulut tabanlı sohbet aracı + iyi prompt</td>
+      <td>"Bu metni 5 maddede özetle, sonra yöneticime gönderebileceğim resmi versiyonunu yaz."</td>
+    </tr>
+    <tr>
+      <td><strong>Kod Yardımı</strong></td>
+      <td>IDE + AI kod yardımcısı + terminal</td>
+      <td>"Bu React bileşenine arama kutusu ekle ve filtreleme mantığını bozmadan çalıştır."</td>
+    </tr>
+    <tr>
+      <td><strong>Dokümanla Soru-Cevap (RAG)</strong></td>
+      <td>Doküman alma + arama + cevap üretimi + alıntı</td>
+      <td>"Bu kullanım kılavuzuna göre cihazın ağ ayarı nasıl yapılır? Cevapta ilgili bölümü göster."</td>
+    </tr>
+    <tr>
+      <td><strong>Değerlendirme / Test</strong></td>
+      <td>Karşılaştırma şablonu</td>
+      <td>Aynı göreve farklı prompt'larla alınan sonuçları karşılaştırmak</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h3 class="section">No-Code / Low-Code / Developer Ayrımı</h3>
+<p>AI araçları sadece yazılım geliştiriciler için değildir. Kullanıcı profiline göre hangi yoldan gidileceğini bilmek gerekir.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Profil</th><th>Kim İçin?</th><th>Tipik Kullanım</th><th>Önerilen Başlangıç</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>No-Code</strong></td>
+      <td>Teknik bilgisi az olanlar</td>
+      <td>Hazır arayüzler, sürükle-bırak, form tabanlı otomasyonlar</td>
+      <td>ChatGPT, Claude, Gemini</td>
+    </tr>
+    <tr>
+      <td><strong>Low-Code</strong></td>
+      <td>Biraz teknik merakı olanlar</td>
+      <td>Hazır modülleri birleştirme, basit API bağlantıları</td>
+      <td>Make, Zapier, Google Colab</td>
+    </tr>
+    <tr>
+      <td><strong>Developer</strong></td>
+      <td>Uygulama geliştirmek isteyenler</td>
+      <td>API kullanımı, RAG akışı, arayüz geliştirme</td>
+      <td>OpenAI API, LangChain, Ollama</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="info-box">
+  <strong>&#128161; Öneri:</strong> En sağlıklı ilerleme genelde şu şekildedir: <em>hazır araçları kullan → mantığı anla → küçük özelleştirme yap → sonra geliştirmeye geç.</em>
+</div>
+
+<hr>
+
+<h3 class="section">Araç Haritası: Bulut ve Yerel Yaklaşım</h3>
+
+<figure class="img-block">
+  <img src="/images/09_cloud_local.jpg" alt="Bulut ve yerel LLM karşılaştırması" loading="lazy">
+  <figcaption>Bulut tabanlı ve yerel model kullanımının temel farkları</figcaption>
+</figure>
+
+<h4 class="subsection">Bulut Araçlar</h4>
+<p>Başlamak için en kolay yoldur. Kurulum derdi azdır, güçlü modellere hızlıca erişebilirsiniz.</p>
+<ul class="red">
+  <li>Avantaj: Hızlı başlangıç, geniş ekosistem, ekip paylaşımı</li>
+  <li>Dezavantaj: Gizlilik kısıtları, veri dış servise gider, internet bağlantısı gerekir</li>
+  <li>Uygun profil: No-code ve low-code kullanıcılar, hızlı sonuç isteyenler</li>
+</ul>
+
+<h4 class="subsection">Yerel LLM</h4>
+<p>Model internetten bağımsız olarak kendi bilgisayarınızda çalışır. Bu yaklaşım özellikle çevrimdışı kullanım, veri kontrolü ve belirli gizlilik ihtiyaçları için önemlidir.</p>
+<ul class="red">
+  <li>Avantaj: Tam veri kontrolü, çevrimdışı çalışma, gizlilik</li>
+  <li>Dezavantaj: Donanım sınırları devreye girer (RAM, VRAM, depolama)</li>
+  <li>Uygun profil: Developer, hassas veri kullananlar, özelleştirme isteyenler</li>
+</ul>
+
+<div class="example-block"><div class="scenario-box">
+  <div class="scenario-title">&#128204; Karar Örneği</div>
+  <p>Sadece hızlıca içerik üretmek istiyorsanız → <strong>bulut araç</strong> daha mantıklıdır.<br>
+  Kurum içi dokümanlarla dışarıya veri çıkarmadan çalışmak istiyorsanız → <strong>yerel kurulum</strong> değerlendirilebilir.</p>
+</div></div>
+
+<hr>
+
+<h3 class="section">AI Seçenekleri ve Ürün Aileleri</h3>
+<p>Bugün AI dünyasında farklı sağlayıcıların farklı güçlü yönleri vardır. Seçim yaparken sağlayıcıyı marka olarak değil, kullanım senaryosu olarak değerlendirmek gerekir.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Sağlayıcı</th><th>Güçlü Olduğu Alan</th><th>Öne Çıkan Ürünler</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>OpenAI</strong></td><td>Genel amaçlı kullanım, kod yardımı, geniş ekosistem</td><td>ChatGPT, GPT-4o, API</td></tr>
+    <tr><td><strong>Google</strong></td><td>Multimodal sistemler, servis ekosistemi, kurumsal entegrasyon</td><td>Gemini, Vertex AI</td></tr>
+    <tr><td><strong>Microsoft</strong></td><td>İş dünyası, Office entegrasyonu, kurumsal güvenlik</td><td>Copilot, Azure AI</td></tr>
+    <tr><td><strong>Anthropic</strong></td><td>Güvenli ve kontrollü yanıt üretimi, uzun bağlam</td><td>Claude 3.5, Claude API</td></tr>
+    <tr><td><strong>Meta</strong></td><td>Açık ağırlıklı modeller, yerel çalıştırma</td><td>Llama 3</td></tr>
+    <tr><td><strong>Mistral AI</strong></td><td>Açık model ekosistemi, geliştirici deneyimi</td><td>Mistral, Mixtral</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h3 class="section">Karar Kriterleri</h3>
+<p>Aşağıdaki tablo, araç seçerken bakılması gereken temel kriterleri özetler. Amaç "puan vermek" değil, ihtiyaç filtresi oluşturmaktır.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Kriter</th><th>Ne Anlama Gelir?</th><th>Neden Önemlidir?</th><th>Örnek Soru</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Maliyet</strong></td>
+      <td>Kullanım ücreti, API maliyeti, lisans gideri</td>
+      <td>Uzun vadede sürdürülebilir kullanım için önemlidir</td>
+      <td>Bu aracı her gün kullanırsam bütçeyi zorlar mı?</td>
+    </tr>
+    <tr>
+      <td><strong>Hız</strong></td>
+      <td>Yanıt verme ve işleme süresi</td>
+      <td>Günlük kullanımda akıcılığı belirler</td>
+      <td>Hızlı taslak mı lazım, yoksa biraz yavaş ama daha kaliteli çıktı mı?</td>
+    </tr>
+    <tr>
+      <td><strong>Dil Desteği</strong></td>
+      <td>Türkçe ve diğer dillerde ne kadar iyi çalıştığı</td>
+      <td>Özellikle Türkçe üretim ve özetleme için kritiktir</td>
+      <td>Türkçe metinlerde doğal sonuç veriyor mu?</td>
+    </tr>
+    <tr>
+      <td><strong>Entegrasyon</strong></td>
+      <td>Başka araçlarla bağlanabilme yeteneği</td>
+      <td>İş akışı kurarken büyük fark yaratır</td>
+      <td>Notion, e-posta, Drive, GitHub gibi araçlarla çalışıyor mu?</td>
+    </tr>
+    <tr>
+      <td><strong>Gizlilik</strong></td>
+      <td>Verilerin nasıl işlendiği ve nerede tutulduğu</td>
+      <td>Şirket içi veya hassas veri kullanımı için kritik</td>
+      <td>Müşteri verisini buraya koymak güvenli mi?</td>
+    </tr>
+    <tr>
+      <td><strong>Multimodal İhtiyaç</strong></td>
+      <td>Metin dışında görsel, ses, PDF gibi verilerle çalışma</td>
+      <td>Tek araçla daha fazla iş yapılmasını sağlar</td>
+      <td>Görsel yorumlama veya ses çözümleme gerekiyor mu?</td>
+    </tr>
+    <tr>
+      <td><strong>Takım Yönetimi</strong></td>
+      <td>Ekip üyeleriyle ortak kullanım, erişim ve denetim</td>
+      <td>Bireysel değil ekip kullanımında önemlidir</td>
+      <td>Ekip içinde ortak şablon, rol ve erişim yönetimi var mı?</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h3 class="section">Geliştirici Araç Seti ve Çalışma Düzeni</h3>
+
+<h4 class="subsection">Editör / IDE: VS Code Temelli Çalışma Düzeni</h4>
+<p>Yeni başlayanlar için en pratik başlangıç noktalarından biri <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>'dur. Hafif, yaygın ve uzantı sistemi sayesinde kolayca büyüyebilen bir editördür.</p>
+
+<figure class="img-block">
+  <img src="/images/10_vscode.jpg" alt="VS Code arayüzü AI uzantısıyla" loading="lazy">
+  <figcaption>VS Code ile AI destekli kod yazımı — Continue veya GitHub Copilot uzantısı ile</figcaption>
+</figure>
+
+<h4 class="subsection">Önerilen Proje Klasör Yapısı</h4>
+<pre><code class="">proje-adi/
+├── app/          ← ana kodlar
+├── data/         ← örnek veri veya dokümanlar
+├── prompts/      ← prompt şablonları
+├── outputs/      ← üretilen çıktılar
+├── README.md     ← proje açıklaması
+└── requirements.txt  ← Python bağımlılıkları</code></pre>
+
+<hr>
+
+<h3 class="section">Versiyon Kontrol: Git Temel Akış</h3>
+<p>Git, proje dosyalarında yapılan değişiklikleri takip etmeye yarayan versiyon kontrol sistemidir. <a href="https://git-scm.com/docs" target="_blank">Git resmi dokümantasyonu</a></p>
+
+<figure class="img-block">
+  <img src="/images/11_git.jpg" alt="Git dallanma ve birleştirme akışı" loading="lazy">
+  <figcaption>Git: branch, commit, merge ve pull request akışı</figcaption>
+</figure>
+
+<h4 class="subsection">Temel Git Akışı</h4>
+<pre><code class="bash">git init                    # Projeyi başlat
+git add .                   # Değişiklikleri hazırla
+git commit -m "feat: ilk sürüm"  # Kayıt noktası oluştur
+git push origin main        # Uzak repoya gönder</code></pre>
+
+<h4 class="subsection">İyi Commit Mesajı Örnekleri</h4>
+<div class="example-block"><ul class="red">
+  <li><code>feat: ayarlar ekranına tema seçimi eklendi</code></li>
+  <li><code>fix: dosya yükleme hatası düzeltildi</code></li>
+  <li><code>docs: kurulum adımları README içine eklendi</code></li>
+  <li><code>refactor: özetleme fonksiyonu sadeleştirildi</code></li>
+</ul></div>
+
+<hr>
+
+<h3 class="section">Proje Çalıştırma Ortamı</h3>
+<p>AI projelerinde en sık karşılaşılan iki temel çalışma ortamı Python ve Node.js'tir.</p>
+
+<h4 class="subsection">Python — Sanal Ortam Kurulumu</h4>
+<pre><code class="bash"># Sanal ortam oluştur
+python -m venv venv
+
+# Sanal ortamı aktive et (Windows)
+venv\Scripts\activate
+
+# Sanal ortamı aktive et (Mac/Linux)
+source venv/bin/activate
+
+# Paketleri yükle
+pip install -r requirements.txt</code></pre>
+
+<h4 class="subsection">Node.js — Paket Kurulumu</h4>
+<pre><code class="bash">npm install          # Tüm bağımlılıkları yükle
+npm run dev          # Geliştirme modunda çalıştır</code></pre>
+
+<hr>
+
+<h3 class="section">Terminal Becerileri: Temel Komutlar ve Hata Ayıklama</h3>
+
+<h4 class="subsection">Temel Terminal Komutları</h4>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Komut</th><th>Ne Yapar?</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>pwd</code></td><td>Bulunduğun klasörü gösterir</td></tr>
+    <tr><td><code>cd proje-adi</code></td><td>Klasör değiştirir</td></tr>
+    <tr><td><code>ls</code> / <code>dir</code></td><td>Dosyaları listeler</td></tr>
+    <tr><td><code>python app.py</code></td><td>Python dosyasını çalıştırır</td></tr>
+    <tr><td><code>pip install paket</code></td><td>Python paketi yükler</td></tr>
+    <tr><td><code>npm start</code></td><td>Node.js uygulamasını başlatır</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h4 class="subsection">Yaygın Hata Türleri</h4>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Hata Mesajı</th><th>Muhtemel Neden</th><th>Çözüm Yönü</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>ModuleNotFoundError</code></td><td>Eksik paket</td><td><code>pip install &lt;paket&gt;</code></td></tr>
+    <tr><td><code>PermissionDenied</code></td><td>Yetki sorunu</td><td>Yönetici olarak çalıştır</td></tr>
+    <tr><td><code>FileNotFoundError</code></td><td>Yanlış dosya yolu</td><td>Dosya yolunu kontrol et</td></tr>
+    <tr><td><code>Port already in use</code></td><td>Port çakışması</td><td>Farklı port kullan</td></tr>
+    <tr><td><code>SyntaxError</code></td><td>Yazım hatası</td><td>Hata satırını düzelt</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h3 class="section">Yerel LLM Çalıştırma Ekosistemi</h3>
+<p>Yerel LLM araçları, modeli kendi bilgisayarınızda indirip çalıştırmanıza yardımcı olan uygulamalardır.</p>
+
+<ul class="red">
+  <li><a href="https://lmstudio.ai/" target="_blank">LM Studio</a> — Grafik arayüzlü yerel model yöneticisi</li>
+  <li><a href="https://ollama.com/" target="_blank">Ollama</a> — Terminal tabanlı, geliştirici dostu yerel LLM çalıştırıcı</li>
+  <li><a href="https://huggingface.co/models" target="_blank">Hugging Face</a> — Model deposu ve paylaşım platformu</li>
+</ul>
+
+<h4 class="subsection">Model Formatları: GGUF ve Quantization</h4>
+<p><strong>GGUF</strong>, yerel çalıştırma tarafında yaygın kullanılan pratik formatlardan biridir. <strong>Quantization</strong> (kuantizasyon), modeli daha küçük ve hafif hale getirme işlemidir.</p>
+
+<figure class="img-block">
+  <img src="/images/12_quantization.jpg" alt="Model boyutu ve quantization karşılaştırması" loading="lazy">
+  <figcaption>Model boyutları: 7B, 13B, 70B — quantization ile RAM/kalite dengesi</figcaption>
+</figure>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Model Büyüklüğü</th><th>Gereken RAM (yaklaşık)</th><th>Performans</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>7B</td><td>~6–8 GB</td><td>Hızlı, günlük görevler için yeterli</td></tr>
+    <tr><td>13B</td><td>~10–16 GB</td><td>Daha iyi kalite, orta hız</td></tr>
+    <tr><td>30B</td><td>~20–32 GB</td><td>Yüksek kalite, yavaş</td></tr>
+    <tr><td>70B</td><td>~48+ GB</td><td>En yüksek kalite, çok yavaş</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="info-box">
+  <strong>&#128161; Öneri:</strong> Yeni başlayan biri önce küçük bir modeli stabil şekilde çalıştırmalı; büyük modellerle uğraşmaya daha sonra geçmelidir. Hedef: <em>"en büyük model"</em> değil, <em>"makul hız + yeterli kalite"</em> dengesidir.
+</div>
+
+<h4 class="subsection">Güvenli Model Edinme: Lisans ve Model Card</h4>
+<ul class="red">
+  <li>Model dosyasını <a href="https://huggingface.co/models" target="_blank">Hugging Face</a> gibi bilinen platformlardan edinin</li>
+  <li>Ticari kullanım için lisans metnini mutlaka okuyun</li>
+  <li>Model card'ı okuyun: dil desteği, sınırlar, eğitim verisi hakkında bilgi içerir</li>
+</ul>
+
+  
+<h2 class="bolum" id="bolum4">BÖLÜM 4 — PROJELER VE GİTHUB PRATİĞİ</h2>
+
+<h3 class="section">Mini Pratik Seti</h3>
+<p>AI becerilerini geliştirmek için küçük egzersizler yapmak oldukça faydalıdır. Aşağıdaki görevler AI ile çalışma alışkanlığı kazanmayı sağlar:</p>
+
+<ul class="red">
+  <li>Bir e-posta taslağı yazdırmak</li>
+  <li>Toplantı notlarını özetletmek</li>
+  <li>İçerik taslağı üretmek</li>
+  <li>Bir görev planı hazırlatmak</li>
+  <li>Basit bir karar matrisi oluşturmak</li>
+  <li>Küçük veri analizleri yapmak</li>
+</ul>
+
+<hr>
+
+<h3 class="section">Basit Proje Örnekleri</h3>
+
+<h4 class="subsection">Proje 1: Prompt Şablon Kütüphanesi + Çıktı Kalite Kontrolü</h4>
+<div class="scenario-box">
+  <div class="scenario-title">&#127919; Amaç</div>
+  <p>Takım içinde kullanılan prompt şablonlarını tek bir yerde toplamak, iyi örnekleri kaybetmemek ve çıktı kalitesini daha standart hale getirmek.</p>
+</div>
+
+<h4 class="subsection">Neden Faydalı?</h4>
+<p>Birçok ekip aynı işi tekrar tekrar farklı biçimde ister. Bir kişi iyi prompt yazar, diğer kişi zayıf prompt kullanır ve sonuç kalitesi dağılır. Şablon kütüphanesi bu dağınıklığı azaltır.</p>
+
+<h4 class="subsection">Çıktı Yapısı</h4>
+<ul class="red">
+  <li>Şablon galerisi</li>
+  <li>Her şablon için amaç açıklaması</li>
+  <li>Örnek giriş ve örnek çıkış</li>
+  <li>Kalite kontrol listesi</li>
+</ul>
+
+<h4 class="subsection">Örnek Şablon Kategorileri</h4>
+<div class="example-block"><ul class="red">
+  <li>E-posta yazdırma</li>
+  <li>Toplantı notu özetleme</li>
+  <li>İçerik taslağı hazırlama</li>
+  <li>Kod açıklatma</li>
+  <li>Karar karşılaştırması</li>
+</ul></div>
+
+<h4 class="subsection">Kalite Kontrol Listesi</h4>
+<div class="example-block"><ul class="red">
+  <li>Çıktı anlaşılır mı?</li>
+  <li>İstenen formatta mı?</li>
+  <li>Gereksiz uzatma var mı?</li>
+  <li>Kaynak gerekiyorsa belirtilmiş mi?</li>
+  <li>Aksiyon alınabilir mi?</li>
+</ul></div>
+
+<hr>
+
+<h4 class="subsection">Proje 2: Mini RAG — Kendi Dokümanından Soru-Cevap</h4>
+<div class="scenario-box">
+  <div class="scenario-title">&#127919; Amaç</div>
+  <p>Belirli PDF veya Markdown dokümanlarından kaynaklı cevap üretmek. Model, genel tahmin yerine sizin verdiğiniz içerik üzerinden yanıt oluşturur.</p>
+</div>
+
+<figure class="img-block">
+  <img src="/images/04_rag.jpg" alt="RAG proje akışı" loading="lazy">
+  <figcaption>Mini RAG projesi: PDF yükleme → parçalama → vektör arama → kaynaklı cevap</figcaption>
+</figure>
+
+<h4 class="subsection">Temel Akış</h4>
+<ol class="styled">
+  <li><strong>Ingestion</strong> — Dokümanı sisteme alma ve parçalama</li>
+  <li><strong>Retrieval</strong> — İlgili bölümleri arayıp bulma</li>
+  <li><strong>Answer</strong> — Cevap üretme</li>
+  <li><strong>Citation / Evidence</strong> — Alıntı veya kanıt gösterme</li>
+</ol>
+
+<div class="example-block"><div class="scenario-box">
+  <div class="scenario-title">&#128204; Örnek Kullanım</div>
+  <p>Bir PDF kullanım kılavuzu yüklersiniz. Sonra şu soruyu sorarsınız:</p>
+  <div class="prompt-box">"Cihazın ilk kurulumunda ağ bağlantısı nasıl yapılıyor? Cevapta ilgili bölüm başlığını da göster."</div>
+  <p><strong>Beklenen sonuç:</strong> Model yalnızca cevap vermez; cevabı hangi bölümden çıkardığını da gösterir.</p>
+</div></div>
+
+<hr>
+
+<h3 class="section">GitHub ile Pratik: "İndir – Çalıştır – AI ile Düzenle" Akışı</h3>
+
+<h4 class="subsection">Repo Seçim Kriterleri</h4>
+<ul class="red">
+  <li>Kurulum adımları net ve kısa olmalı</li>
+  <li>İyi bir README bulunmalı</li>
+  <li>Küçük kurulum yükü (12 servis kurmak gerekmemeli)</li>
+  <li>Örnek veri içermeli</li>
+  <li>"Çalıştı mı çalışmadı mı?" sorusuna net cevap verilebilmeli</li>
+</ul>
+
+<h4 class="subsection">Standart Adımlar</h4>
+<ol class="styled">
+  <li>
+    <strong>İndir / Clone</strong><br>
+    <pre><code class="bash">git clone https://github.com/kullanici/repo-adi.git</code></pre>
+  </li>
+  <li>
+    <strong>Klasöre gir</strong><br>
+    <pre><code class="bash">cd repo-adi</code></pre>
+  </li>
+  <li>
+    <strong>Bağımlılıkları yükle</strong><br>
+    <pre><code class="bash">pip install -r requirements.txt</code></pre>
+  </li>
+  <li>
+    <strong>.env dosyasını oluştur</strong><br>
+    <pre><code class="bash">OPENAI_API_KEY=sk-xxxxxxxxxxxx</code></pre>
+  </li>
+  <li>
+    <strong>Çalıştır</strong><br>
+    <pre><code class="bash">python app.py</code></pre>
+    <p>Komut çalıştırıldığında terminalde şu mesaj görünmelidir:</p>
+    <pre><code class="">Server started on port 8000</code></pre>
+  </li>
+</ol>
+
+<h4 class="subsection">AI ile İyi Düzenleme İstekleri</h4>
+<div class="example-block"><ul class="red">
+  <li>"Şu butonun metnini değiştir"</li>
+  <li>"Bu listeye arama özelliği ekle"</li>
+  <li>"Tema rengini daha koyu yap"</li>
+  <li>"Bu dosyada hata varsa nedenini açıkla"</li>
+  <li>"Mevcut yapıyı bozmadan yeni bir alan ekle"</li>
+</ul></div>
+
+<div class="warn-box">
+  <strong>&#9888; Dikkat:</strong> AI'ya tüm projeyi bir anda değiştirtmeye çalışmayın. Dosya dosya, parça parça ilerleyin.
+</div>
+
+<h4 class="subsection">Hata Çözme Mantığı</h4>
+<ol class="styled">
+  <li>Hata mesajını son satırdan değil bütünüyle oku</li>
+  <li>Hangi dosyada olduğunu bul</li>
+  <li>Son yaptığın değişikliği kontrol et</li>
+  <li>README veya kurulum notlarına geri dön</li>
+  <li>Gerekirse AI'ya hatayı bağlamıyla birlikte ver</li>
+</ol>
+
+<div class="example-block"><div class="prompt-box">"Bu React projesinde navbar'a arama kutusu ekledim. Şimdi build sırasında 'module not found' hatası alıyorum. İlgili dosya şu. Hatanın nedenini ve minimum değişiklikle çözümünü açıkla."</div></div>
+
+<hr>
+
+<h3 class="section">Proje Anlatım Formatı</h3>
+<p>Her proje aynı yapı ile anlatılmalıdır. Okuyucu her projede aynı sıralamayı görürse, yeni bir projeyi anlaması çok daha kolay olur.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Adım</th><th>Başlık</th><th>Anahtar Soru</th><th>İçerik</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>Problem</strong></td><td>Bu proje hangi sorunu çözüyor?</td><td>Kullanım senaryosu, neden gerekli</td></tr>
+    <tr><td>2</td><td><strong>Hedef</strong></td><td>Çalıştığında kullanıcı ne elde edecek?</td><td>Ne yapacak, nasıl etkileşim, çıktı nasıl görünecek</td></tr>
+    <tr><td>3</td><td><strong>Kurulum</strong></td><td>Projeyi nasıl kurarım?</td><td>Clone, bağımlılıklar, env, config</td></tr>
+    <tr><td>4</td><td><strong>Çalıştırma</strong></td><td>Nasıl başlatırım?</td><td>Komut + beklenen çıktı</td></tr>
+    <tr><td>5</td><td><strong>Doğrulama</strong></td><td>Doğru çalışıyor mu?</td><td>Test girişi + beklenen sonuç</td></tr>
+    <tr><td>6</td><td><strong>Geliştirme Görevleri</strong></td><td>Nasıl geliştiririm?</td><td>Küçük, net görev listesi</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h3 class="section">AI ile Düzenleme Görevleri</h3>
+<p>Her projede 5–7 adet "AI ile düzenleme" görevi bulunmalıdır. Bu görevler kullanıcının AI'dan yardım alarak projeyi değiştirmesini sağlar. Görevler küçük ama anlamlı olmalıdır.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Görev Kategorisi</th><th>Örnek Görevler</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Çıktı Biçimi</strong></td><td>Çıktı formatını tablo yap, sonuçlara tarih ekle</td></tr>
+    <tr><td><strong>Kullanıcı Etkileşimi</strong></td><td>Kullanıcıdan ek bilgi al, hata mesajlarını daha anlaşılır yap</td></tr>
+    <tr><td><strong>Teknik İyileştirme</strong></td><td>Log kaydı ekle, API çağrısını optimize et</td></tr>
+    <tr><td><strong>UI Değişikliği</strong></td><td>Tema rengini değiştir, yeni bir alan ekle</td></tr>
+    <tr><td><strong>Fonksiyon Ekleme</strong></td><td>Arama özelliği ekle, dışa aktarma butonu koy</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h4 class="subsection">En İyi Öğrenme Akışı</h4>
+<ol class="styled">
+  <li>Repoyu indir</li>
+  <li>Projeyi çalıştır</li>
+  <li>Beklenen çıktıyı gör</li>
+  <li>Küçük bir değişiklik yap</li>
+  <li>AI ile birlikte geliştirmeye devam et</li>
+</ol>
+
+  
+<h2 class="bolum" id="bolum5">BÖLÜM 5 — DOKÜMAN TASARIMI, OKUNABİLİRLİK VE KULLANIM MANTIĞI</h2>
+
+<p>Bu bölüm, hazırlanan datasheet'in nasıl paketleneceğini ve uygulama içinde nasıl sunulacağını açıklar. Amaç sadece bilgi vermek değil; kullanıcının bu bilgiyi hızlı okuyabilmesi, gerektiğinde tekrar bulabilmesi ve doğrudan kullanabilmesidir.</p>
+
+<h4 class="subsection">Yeni Başlayanların En Yaygın Sorunu</h4>
+<ul class="red">
+  <li>Bilgi çok dağınık olur</li>
+  <li>Aynı kavram farklı yerlerde tekrar anlatılır</li>
+  <li>Pratik örnekler bulunamaz</li>
+</ul>
+
+<hr>
+
+<h3 class="section">Datasheet Nasıl Paketlenmeli?</h3>
+<p>Bu doküman klasik bir kitap gibi okunmak zorunda değildir. Daha doğru yaklaşım, dokümanı iki katmanlı bir yapı olarak düşünmektir:</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Katman</th><th>Açıklama</th><th>İçerik Türü</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Katman 1 — Öğrenme</strong></td><td>Kavramları ve araçları açıklar</td><td>Detaylı açıklamalar, örnekler</td></tr>
+    <tr><td><strong>Katman 2 — Hızlı Referans</strong></td><td>Günlük kullanımda hızlıca bakılabilecek kısımlar</td><td>Tablolar, kısa rehberler, cheat sheet</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h4 class="subsection">Uygulama İçinde Modüler Yapı</h4>
+<ul class="red">
+  <li>Kısa rehber sayfaları</li>
+  <li>Hızlı referans sayfaları</li>
+  <li>Küçük pratik bloklar</li>
+</ul>
+
+<div class="info-box">
+  Uygulama içinde kullanıcı genellikle tüm dokümanı baştan sona okumaz. Bunun yerine ihtiyaç duyduğu bilgiyi hızlıca bulur. Bu nedenle içerik parçaları mümkün olduğunca modüler olmalıdır.
+</div>
+
+<hr>
+
+<h3 class="section">Kullanıcıyı Yormayan Bilgi Blokları</h3>
+
+<h4 class="subsection">Pratik Prompt Bloğu</h4>
+<p>Kullanıcının doğrudan kullanabileceği prompt örnekleri.</p>
+
+<div class="scenario-box">
+  <div class="scenario-title">&#128204; Örnek Blok: Makale Özetleme</div>
+  <p><strong>Amaç:</strong> Bir makaleyi hızlıca özetlemek.</p>
+  <div class="prompt-box">"Aşağıdaki metni analiz et.<br>
+  Önce 3 maddelik kısa bir özet çıkar.<br>
+  Sonra metinden çıkarılabilecek en önemli 2 öneriyi yaz.<br>
+  Çıktıyı madde listesi formatında ver."</div>
+</div>
+
+<h4 class="subsection">Mini Senaryo Bloğu</h4>
+<p>Gerçek bir kullanım durumunu kısa şekilde anlatır.</p>
+
+<div class="scenario-box">
+  <div class="scenario-title">&#128204; Senaryo: Toplantı Notu Düzenleme</div>
+  <p><strong>Durum:</strong> Bir ekip haftalık toplantı yapıyor ve toplantı notlarını düzenlemek yaklaşık 15 dakika sürüyor.</p>
+  <p><strong>AI kullanımı:</strong></p>
+  <div class="prompt-box">"Bu toplantı notlarını düzenle.<br>
+  1. kısa özet<br>
+  2. alınan kararlar<br>
+  3. yapılacak görevler<br>
+  başlıkları altında yeniden yaz."</div>
+  <p><strong>Sonuç:</strong> 5–10 dakika süren manuel düzenleme yerine birkaç saniyede düzenli bir toplantı özeti elde edilir.</p>
+</div>
+
+<h4 class="subsection">Küçük Deney Bloğu</h4>
+<p>Kullanıcının AI davranışını anlamasını sağlayan küçük görevler.</p>
+
+<div class="scenario-box">
+  <div class="scenario-title">&#128204; Görev: Prompt Kısıtı Etkisi</div>
+  <p>Aşağıdaki iki promptu aynı metin üzerinde deneyin:</p>
+  <p><strong>Prompt 1:</strong></p>
+  <div class="prompt-box">"Bu metni özetle."</div>
+  <p><strong>Prompt 2:</strong></p>
+  <div class="prompt-box">"Bu metni 4 maddede özetle. Her madde en fazla 12 kelime olsun."</div>
+  <p>Sonuçları karşılaştırın. Genellikle ikinci prompt daha net ve düzenli çıktı üretir.</p>
+</div>
+
+<hr>
+
+<h3 class="section">Yeni Başlayanlar İçin Pratik Kullanım Rotası</h3>
+
+<ol class="styled">
+  <li>Bir sohbet aracında 3 farklı prompt deneyin</li>
+  <li>Bir metni özetletin ve aksiyon listesi çıkarın</li>
+  <li><a href="https://github.com/" target="_blank">GitHub</a>'dan küçük bir AI reposu indirip çalıştırın</li>
+  <li>Repo üzerinde küçük bir değişiklik yapın</li>
+  <li>AI yardımıyla projeye yeni bir özellik ekleyin</li>
+</ol>
+
+<p>Bu rota kullanıcıyı pasif okumadan aktif üretime geçirir.</p>
+
+<hr>
+
+<h3 class="section">Yazım ve Dil Standardı</h3>
+<p>Datasheet içinde kullanılan dil özellikle yeni başlayan kullanıcılar düşünülerek hazırlanmalıdır.</p>
+
+<h4 class="subsection">Temel Yazım Kuralları</h4>
+<ul class="red">
+  <li>Teknoloji terimi ilk geçtiğinde Türkçe açıklama verilir</li>
+  <li>Ardından parantez içinde İngilizce terim yazılır</li>
+  <li>Gereksiz teknik jargon kullanılmaz</li>
+  <li>Örnekler mümkün olduğunca gerçek kullanım senaryosundan seçilir</li>
+</ul>
+
+<div class="example-block"><div class="info-box">
+  <strong>Örnek kullanım:</strong><br>
+  Bağlam (context), modele verilen ek bilgidir. Model bu bilgiyi kullanarak daha doğru cevap üretir.
+</div></div>
+
+<hr>
+
+<h3 class="section">Son Not</h3>
+<div class="info-box">
+<p>Bu datasheet'in amacı yapay zekâyı akademik bir konu gibi anlatmak değildir. Amaç, yeni başlayan bir kullanıcının AI araçlarını gerçek hayatta kullanmaya başlayabilmesini sağlamaktır.</p>
+<p><strong>Başarılı bir AI rehberi:</strong></p>
+<ul class="red">
+  <li>Karmaşık kavramları sade anlatır</li>
+  <li>Küçük ama gerçek örnekler içerir</li>
+  <li>Kullanıcıyı denemeye teşvik eder</li>
+  <li>Araçtan çok kullanım mantığını öğretir</li>
+</ul>
+<p>Bu yaklaşım sayesinde kullanıcı sadece "AI nedir?" sorusunun cevabını öğrenmez. Aynı zamanda AI ile üretken çalışmanın temel alışkanlıklarını da kazanır.</p>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,2608 @@
+[
+  {
+    "id": "tw_001",
+    "title": "Claude Cowork",
+    "description": "Claude'un Cowork özelliğini kullanarak masaüstünde görev yönetimi, dosya düzenleme ve iş akışı iş birliği yapabilirsiniz. Claude Code veya terminal araçlarıyla birlikte kullanarak dosya bazlı otomasyon süreçlerinizi hızlandırabilirsiniz.",
+    "category": "agents",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://ruben.substack.com/p/claude-cowork"
+      ]
+    },
+    "x_link": "https://x.com/Nate_Google_/status/2029941042133262721",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_002",
+    "title": "reComputer Jetson AGX Orin",
+    "description": "GMSL kamera desteğine sahip NVIDIA Jetson AGX Orin taşıyıcı kart; endüstriyel düzeyde AI hesaplama yapabilir, edge ortamlarına konuşlandırabilirsiniz. Robotik veya otonom sistemlerde ROS2 ile birlikte kullanarak gerçek zamanlı görüntü işleme pipeline'ları kurabilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.seeedstudio.com/reComputer-Mini-J501-Carrier-Board-with-GMSL-Bundle-for-Jetson-AGX-Orintm.html"
+      ]
+    },
+    "x_link": "https://x.com/seeedstudio/status/2030304967958135279",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_003",
+    "title": "Gitdiagram",
+    "description": "Herhangi bir GitHub deposundan anında etkileşimli diyagramlar oluşturabilir; kod tabanının yapısını, bağımlılıklarını ve mimarisini görsel olarak inceleyebilirsiniz. Özellikle büyük monorepolarda gezinmek için Cursor veya VS Code ile birlikte kullanarak mimariyi anlamlandırabilir, yeni ekip üyelerinin onboarding sürecini hızlandırabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/ahmedkhaleel2004/gitdiagram",
+      "huggingface": "",
+      "other": [
+        {
+          "label": "Alternatif — Mermaid Live Editor",
+          "url": "https://mermaid.live"
+        },
+        {
+          "label": "Alternatif — Eraser.io (AI diagram)",
+          "url": "https://www.eraser.io"
+        }
+      ]
+    },
+    "x_link": "https://x.com/simplifyinAI/status/2030604844382200110",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_004",
+    "title": "Open Source Projects — Weekly Picks",
+    "description": "Her hafta ilgi çekici açık kaynak projeler hakkında açıklamalar ve linklerle hazırlanan seçki listesinden faydalanabilirsiniz. Yeni araçları keşfetmek için GitHub Trending ile birlikte takip edebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.opensourceprojects.dev/post/80068567-f630-4299-982d-711eed79a120"
+      ]
+    },
+    "x_link": "https://x.com/GithubProjects/status/2030240562356617337",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_005",
+    "title": "Neko",
+    "description": "Kendi sunucunuzda barındırabileceğiniz sanal bir tarayıcı ve masaüstü ortamından faydalanabilirsiniz; Docker içinde tam bir tarayıcı çalıştırabilir, birden fazla kullanıcı uzaktan erişip kontrol edebilir. Portainer veya Coolify gibi bir Docker yönetim arayüzüyle birlikte kullanarak sunucu tarafındaki oturumları kolayca yönetebilir, ekip içi demo ve iş birliği süreçlerini merkezileştirebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/m1k1o/neko",
+      "huggingface": "",
+      "other": [
+        "https://elicit.com"
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_006",
+    "title": "Autoresearch",
+    "description": "Andrej Karpathy tarafından geliştirilen bu otomatik araştırma aracıyla makaleler arayabilir, okuyabilir ve AI ajanları aracılığıyla bulguları sentezleyebilirsiniz. Zotero veya Notion gibi bir referans yönetim aracıyla birlikte kullanarak üretilen özetleri ve kaynak listelerini doğrudan araştırma veritabanınıza aktarabilirsiniz.",
+    "category": "agents",
+    "links": {
+      "github": "https://github.com/karpathy/autoresearch",
+      "huggingface": "",
+      "other": [
+        {
+          "label": "Alternatif — Elicit (AI research assistant)",
+          "url": "https://elicit.com"
+        },
+        {
+          "label": "Alternatif — Consensus",
+          "url": "https://consensus.app"
+        }
+      ]
+    },
+    "x_link": "https://x.com/karpathy/status/2030371219518931079",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_007",
+    "title": "Edit Banana",
+    "description": "Yapay zeka destekli bu video düzenleme aracıyla videolarınızı doğal dil komutları yazarak düzenleyebilir; kesme, kırpma ve efekt ekleme işlemlerini açıklayarak gerçekleştirebilirsiniz. FFmpeg tabanlı bir iş akışıyla veya CapCut gibi bir araçla birlikte kullanarak toplu video işleme süreçlerini otomatize edebilir, üretim sürenizi önemli ölçüde kısaltabilirsiniz.",
+    "category": "image",
+    "links": {
+      "github": "https://github.com/BIT-DataLab/Edit-Banana",
+      "huggingface": "",
+      "other": [
+        {
+          "label": "Alternatif — Cliplama (AI video editor)",
+          "url": "https://cliplama.com"
+        },
+        {
+          "label": "Güncel Versiyon — Runway ML",
+          "url": "https://runwayml.com"
+        }
+      ]
+    },
+    "x_link": "https://x.com/tom_doerr/status/2030451385230033289",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_008",
+    "title": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+    "description": "Araştırma amaçlı güvenlik filtrelerinin kaldırıldığı Qwen3.5-9B model varyantını kullanabilirsiniz; sorumlu biçimde faydalanmanız önerilir. LM Studio veya Ollama ile birlikte yerel ortamda çalıştırabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2030050656975999103",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_009",
+    "title": "Generative ai",
+    "description": "Google Cloud'un generative AI örneklerinden ve ajan şablonlarından faydalanabilir; oturumlar arasında bağlamı koruyan Gemini için kalıcı bellek ajanı dahil birçok örneği inceleyebilirsiniz. Vertex AI altyapısıyla birleştirerek production'a hazır ajan sistemleri geliştirebilirsiniz.",
+    "category": "agents",
+    "links": {
+      "github": "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/simplifyinAI/status/2029873318904406440",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_010",
+    "title": "unsloth/gemma-3-270m-it-GGUF",
+    "description": "GGUF formatındaki ultra hafif Gemma 3 modelini (270M parametre) her türlü donanımda çalıştırabilir; test ve edge deployment için kullanabilirsiniz. Ollama veya llama.cpp ile birlikte kullanarak minimum kaynak tüketimiyle LLM entegrasyonu yapabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/unsloth/gemma-3-270m-it-GGUF",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2029892111424966681",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_011",
+    "title": "Chartli",
+    "description": "Komut satırından yapay zeka kullanarak güzel grafikler ve veri görselleştirmeleri oluşturabilir; ne istediğinizi tarif ederek anında sonuç alabilirsiniz. Python veya Node.js tabanlı veri pipeline'larınızla birlikte entegre ederek otomatik rapor oluşturma süreçlerine dahil edebilir, terminal çıktılarınızı doğrudan görsel hale getirebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/ahmadawais/chartli",
+      "huggingface": "",
+      "other": [
+        {
+          "label": "Alternatif — Vega-Lite (declarative charts)",
+          "url": "https://vega.github.io/vega-lite"
+        },
+        {
+          "label": "Alternatif — D3.js",
+          "url": "https://d3js.org"
+        }
+      ]
+    },
+    "x_link": "https://x.com/tom_doerr/status/2030332172180045862",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_012",
+    "title": "pm Skills",
+    "description": "Claude için hazırlanmış ürün yönetimi odaklı Skill setinden faydalanabilir; PRD yazımı, özellik önceliklendirmesi gibi PM iş akışlarını Claude'a yaptırabilirsiniz. Claude Projects ile birlikte kurarak tüm ürün döngüsü için kalıcı bir AI yardımcısı oluşturabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/phuryn/pm-skills",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/sefa_ai/status/2030241874057818489",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_013",
+    "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+    "description": "Claude 4.6 Opus muhakemesiyle desteklenmiş Qwen3.5-27B modelini kullanabilir; Qwen mimarisini Opus düzeyi akıl yürütme kalitesiyle bir arada değerlendirebilirsiniz. Ollama veya vLLM ile birlikte yerel olarak servis edebilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "other": []
+    },
+    "x_link": "https://x.com/BrianRoemmele/status/2030088781580358047",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_014",
+    "title": "Gencad",
+    "description": "Metin açıklamalarından 3D mekanik parçalar üretmek için AI destekli CAD oluşturucudan faydalanabilirsiniz. FreeCAD veya Fusion 360 ile birlikte kullanarak üretilen modelleri hızlıca doğrulayabilir ve düzenleyebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/ferdous-alam/GenCAD",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2030139677693358445",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_015",
+    "title": "Nopscadlib",
+    "description": "3D baskı ve CNC için yüzlerce parametrik model içeren OpenSCAD kütüphanesinden faydalanabilir; vidalar, motorlar, muhafazalar gibi parçaları hazır olarak kullanabilirsiniz. Kendi tasarımlarınıza modüler bileşenler olarak dahil ederek geliştirme sürenizi kısaltabilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "https://github.com/nophead/NopSCADlib",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2029235924781977631",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_016",
+    "title": "Helsinki-NLP/opus-mt-tc-big-tr-en",
+    "description": "Türkçe→İngilizce çeviri için yüksek kaliteli bu sinir ağı modelini kullanabilirsiniz; Helsinki-NLP OPUS-MT projesinin bir parçasıdır. Hugging Face pipeline ile birlikte entegre ederek kendi çeviri uygulamalarınızı geliştirebilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-tr-en",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2028140569705451926",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_017",
+    "title": "Llmfit",
+    "description": "LoRA/QLoRA ile LLM ince ayarı için bu hafif CLI aracından faydalanabilir; minimal kurulumla basit yapılandırma dosyalarıyla modelleri eğitebilirsiniz. Unsloth veya Axolotl ile birlikte değerlendirerek en uygun fine-tuning iş akışını seçebilirsiniz.",
+    "category": "llm",
+    "links": {
+      "github": "https://github.com/AlexsJones/llmfit",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/kadiruludag/status/2027390121280999530",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_018",
+    "title": "Openarm Hardware",
+    "description": "Açık kaynaklı 6 serbestlik dereceli robot kolu tasarımından faydalanabilir; 3D baskı parçaları ve uygun fiyatlı servolarla kendi robot kolunuzu inşa edebilirsiniz. ROS2 veya Arduino ile birlikte programlayarak otomasyon ve araştırma projelerinize dahil edebilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "https://github.com/enactic/openarm_hardware",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2027649545736196208",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_019",
+    "title": "Kreuzberg",
+    "description": "PDF, görüntü ve Word belgelerinden yüksek doğrulukla metin çıkarmak için bu modern kütüphaneden faydalanabilir; OCR desteğiyle zor belgeler üzerinde de güvenilir sonuçlar alabilirsiniz. LangChain veya LlamaIndex ile birlikte kullanarak RAG pipeline'larınızı besleyebilirsiniz.",
+    "category": "rag",
+    "links": {
+      "github": "https://github.com/kreuzberg-dev/kreuzberg",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2027017346989097063",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_020",
+    "title": "Openfang",
+    "description": "Araç kullanımı, bellek ve planlama yetenekleriyle otonom ajanlar geliştirmek için bu açık kaynaklı AI ajan framework'ünden faydalanabilirsiniz. LangGraph veya CrewAI ile birlikte değerlendirerek ihtiyacınıza en uygun ajan mimarisini seçebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/RightNow-AI/openfang",
+      "huggingface": "",
+      "other": [
+        "https://www.openfang.sh/"
+      ]
+    },
+    "x_link": "https://x.com/sakevoid/status/2027023570220544039",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_021",
+    "title": "Awesome 3d Printing",
+    "description": "3D baskı için yazılım, donanım rehberleri, malzemeler ve topluluklar dahil kapsamlı kaynak listesinden faydalanabilirsiniz. Cura dilimleyiciyle birlikte kullanarak baskı öncesi iş akışınızı optimize edebilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "https://github.com/ad-si/awesome-3d-printing",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2026645837497934292",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_022",
+    "title": "Plasticity",
+    "description": "Doğal dil kullanarak CAD modelleri oluşturmak için bu AI destekli 3D modelleme aracından faydalanabilirsiniz; mühendisler ve tasarımcılar için tasarlanmıştır. Onshape veya Fusion 360 ile birlikte kullanarak üretilen modelleri profesyonel tasarım süreçlerinize entegre edebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/getPlasticity/status/2026172242187755964",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_023",
+    "title": "Accomplish",
+    "description": "Hedefleri eyleme dönüştürülebilir görevlere bölmek ve AI ajanlarıyla yürütmek için bu görev yönetim ve otomasyon framework'ünden faydalanabilirsiniz. AutoGPT veya LangGraph ile birlikte değerlendirerek en uygun ajan orkestrasyon çözümünü bulabilirsiniz.",
+    "category": "agents",
+    "links": {
+      "github": "https://github.com/accomplish-ai/accomplish",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/heyrimsha/status/2026258551925244172",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_024",
+    "title": "DIY CNC Machine",
+    "description": "Malzeme listesi, montaj talimatları ve firmware kurulumu dahil DIY CNC makinesi inşası için kapsamlı bu rehberden faydalanabilirsiniz. GRBL veya Marlin firmware ile birlikte kullanarak makineyi kişisel ihtiyaçlarınıza göre yapılandırabilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "https://github.com/maxvfischer/DIY-CNC-machine",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2026197891438592488",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_025",
+    "title": "Helsinki-NLP/opus-mt-tr-en",
+    "description": "Çoğu kullanım durumu için iyi doğrulukla hızlı Türkçe-İngilizce çeviri yapabilen bu hafif modelden faydalanabilirsiniz. Hugging Face pipeline ile birlikte entegre ederek uygulamalarınıza gerçek zamanlı çeviri özelliği ekleyebilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/Helsinki-NLP/opus-mt-tr-en",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2026092630946541592",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_026",
+    "title": "Pizero Openclaw",
+    "description": "Raspberry Pi Zero için 3D baskılı, servo tahrikli açık kaynaklı robotik tutucu tasarımından faydalanabilir; küçük robotik projelerinizde kullanabilirsiniz. OpenCV ile birlikte entegre ederek görüntü tabanlı nesne yakalama sistemleri geliştirebilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "https://github.com/sebastianvkl/pizero-openclaw",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/basti_vkl/status/2025727742784983427",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_027",
+    "title": "Google Pomelli",
+    "description": "Yaratıcı iş akışları ve içerik üretimi için Google Labs'ın deneysel AI aracından faydalanabilirsiniz. Diğer Google Workspace araçlarıyla birlikte kullanarak içerik üretim süreçlerinizi hızlandırabilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://labs.google.com/u/0/pomelli/onboarding"
+      ]
+    },
+    "x_link": "https://x.com/mertxdigital/status/2024893450017993091",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_028",
+    "title": "Melotts",
+    "description": "MyShell AI tarafından geliştirilen yüksek kaliteli çok dilli metin-ses dönüştürücüden faydalanabilir; doğal sesler ve çok dilli destek ile yerel ortamda çalıştırabilirsiniz. Coqui TTS ile karşılaştırarak projenize en uygun TTS motoru seçebilirsiniz.",
+    "category": "llm",
+    "links": {
+      "github": "https://github.com/myshell-ai/MeloTTS",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2024913285665919346",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_029",
+    "title": "Airllm",
+    "description": "70B+ büyük dil modellerini tek bir 4GB GPU'da katmanlı çıkarım yöntemiyle çalıştırabilir; niceleme gerekmeksizin her seferinde bir katman işleyerek büyük modellere erişebilirsiniz. llama.cpp ile birlikte değerlendirerek düşük donanımlı ortamlar için en uygun çalıştırma yöntemini belirleyebilirsiniz.",
+    "category": "llm",
+    "links": {
+      "github": "https://github.com/lyogavin/airllm",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2024878886652150059",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_030",
+    "title": "Product Hunt Daily Leaderboard",
+    "description": "Yeni lansman yapan teknoloji ürünlerinin günlük sıralamasından faydalanabilir; yeni AI araçlarını ve girişimleri keşfedebilirsiniz. Hacker News ile birlikte takip ederek sektördeki en güncel gelişmeleri kaçırmadan izleyebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.producthunt.com/leaderboard/daily/2026/3/1"
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_031",
+    "title": "Second Brain for AI Agents",
+    "description": "AI ajanları için oturumlar arasında hata tekrarını önleyen kalıcı bellek sistemleri kurma konusundaki bu makaleden faydalanabilirsiniz. Mem0 veya Zep gibi bellek kütüphaneleriyle birlikte uygulayarak ajan uygulamalarınıza kalıcı hafıza ekleyebilirsiniz.",
+    "category": "memory",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://medium.com/@aleksandardobrohotov/i-built-a-second-brain-for-my-ai-agents-they-stopped-repeating-the-same-mistakes-8690bc38c158"
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_032",
+    "title": "Nanbeige/Nanbeige4.1-3B",
+    "description": "Genel metin görevleri için Nanbeige 4.1 3B kompakt dil modelinden faydalanabilirsiniz. Ollama ile birlikte yerel olarak çalıştırarak düşük gecikmeyle metin işleme uygulamaları geliştirebilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2024086668853027159",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_033",
+    "title": "Three.js",
+    "description": "WebGL ile tarayıcıda etkileyici 3D grafikler oluşturmak için en popüler JavaScript 3D kütüphanesinden faydalanabilirsiniz; milyonlarca web sitesinde kullanılmaktadır. React Three Fiber ile birlikte kullanarak React projelerinize kolayca 3D sahneler entegre edebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/mrdoob/three.js",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/Aykutuces/status/2023741989561172264",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_034",
+    "title": "Defense of SaaS",
+    "description": "Finbarr Taylor'ın AI çağında SaaS iş modelinin neden hâlâ geçerli olduğunu ele aldığı LinkedIn makalesinden faydalanabilirsiniz. AI-first ürün stratejisi konusunda fikir geliştirmek için a16z blog yazılarıyla birlikte okuyabilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.linkedin.com/pulse/defense-saas-finbarr-taylor-d9qhc"
+      ]
+    },
+    "x_link": "https://x.com/finbarr/status/2021999185172775288",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_035",
+    "title": "Gemini Deep Think Hardware Design",
+    "description": "Adafruit'in Gemini'nin derin düşünme modunu donanım tasarımına uyguladığı bu deneyi inceleyebilir; LLM destekli PCB ve devre tasarımı yaklaşımlarından faydalanabilirsiniz. KiCad ile birlikte kullanarak devre tasarım süreçlerinize AI destekli ön analiz ekleyebilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://blog.adafruit.com/2026/02/14/heres-our-first-gemini-deep-think-llm-assisted-hardware-design/"
+      ]
+    },
+    "x_link": "https://x.com/adafruit/status/2022810322856472822",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_036",
+    "title": "Opendataloader pdf",
+    "description": "RAG ve belge işleme pipeline'ları için PDF'lerden yapılandırılmış veri çıkarmak amacıyla bu PDF veri yükleyiciden faydalanabilirsiniz. LangChain veya LlamaIndex ile birlikte entegre ederek belge tabanlı AI uygulamalarınızı hızlandırabilirsiniz.",
+    "category": "data",
+    "links": {
+      "github": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/kadiruludag/status/2030253176977301833",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_037",
+    "title": "Cloudflare MoltWorker — Self-hosted AI Agent",
+    "description": "AI ajanlarını Cloudflare Workers altyapısında konuşlandırmak ve çalıştırmak için Cloudflare'ın self-hosted ajan platformundan faydalanabilirsiniz. Cloudflare D1 ve R2 ile birlikte kullanarak edge'de tam kapsamlı ajan altyapısı kurabilirsiniz.",
+    "category": "agents",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/"
+      ]
+    },
+    "x_link": "https://x.com/Cloudflare/status/2022363126788960739",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_038",
+    "title": "Gsap",
+    "description": "Profesyonel düzeyde web animasyonları oluşturmak için GreenSock Animation Platform'dan faydalanabilirsiniz; endüstri standardı olan bu kütüphane yüksek performanslı animasyonlar sunar. ScrollTrigger eklentisiyle birlikte kullanarak kaydırma tabanlı interaktif animasyonlar tasarlayabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/greensock/gsap",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/Aykutuces/status/2023025326503203131",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_039",
+    "title": "nvidia/personaplex-7b-v1",
+    "description": "Konuşmalar boyunca karakter tutarlılığını koruyan NVIDIA PersonaPlex 7B modelinden faydalanabilir; persona odaklı metin üretimi yapabilirsiniz. Oyun veya interaktif hikaye uygulamalarında NPC diyalog sistemi olarak kullanabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/nvidia/personaplex-7b-v1",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2022995332058251548",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_040",
+    "title": "gpu hot",
+    "description": "Gerçek zamanlı GPU sıcaklığını ve performans metriklerini izlemek için bu araçtan faydalanabilir; VRAM kullanımı, saat hızları ve termal değerleri takip edebilirsiniz. AI model eğitimi sırasında donanım sağlığını korumak için MSI Afterburner ile birlikte kullanabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/psalias2006/gpu-hot",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2022748809898377576",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_041",
+    "title": "Claude Code with Local Models",
+    "description": "Claude Code arayüzüyle yerel LLM'leri kullanmak için bu yönlendirici çözümü inceleyebilir; topluluk rehberi ve kurulum talimatlarından faydalanabilirsiniz. Ollama ile birlikte kurarak Claude Code'u maliyetsiz çalıştırabilirsiniz.",
+    "category": "llm",
+    "links": {
+      "github": "https://github.com/musistudio/claude-code-router/issues/1161",
+      "huggingface": "",
+      "other": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r47fz0/claude_code_with_local_models_full_prompt/"
+      ]
+    },
+    "x_link": "https://x.com/KorOglan/status/2022568189842833849",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_042",
+    "title": "OpenAI — New Result in Theoretical Physics",
+    "description": "OpenAI'ın teorik fizik alanında yeni sonuçlar üretme kapasitesini gösteren bu araştırmayı inceleyebilir; AI'ın bilimsel keşiflerdeki rolü hakkında fikir edinebilirsiniz. DeepMind'ın AlphaFold çalışmasıyla birlikte okuyarak AI ile bilim kesişimini daha geniş bir perspektiften değerlendirebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://openai.com/tr-TR/index/new-result-theoretical-physics/"
+      ]
+    },
+    "x_link": "https://x.com/sefa_ai/status/2022600517772288427",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_043",
+    "title": "Complete Guide to Building Skills for Claude",
+    "description": "Anthropic'in Claude için Skill oluşturma konusundaki resmi PDF rehberinden faydalanabilir; SKILL.md formatı, YAML metadatası ve en iyi uygulamaları öğrenebilirsiniz. Mevcut skill kütüphanesiyle birlikte inceleyerek kendi Claude iş akışlarınızı geliştirebilirsiniz.",
+    "category": "guides",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf"
+      ]
+    },
+    "x_link": "https://x.com/sefa_ai/status/2021888520105627832",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_044",
+    "title": "DeepCAD",
+    "description": "Sinir ağları kullanarak 3D CAD modelleri üretmek ve değiştirmek için derin öğrenme tabanlı CAD çalışmasından faydalanabilirsiniz. FreeCAD Python API ile birlikte değerlendirerek AI destekli parametrik modelleme deneyleri yapabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/rundiwu/DeepCAD",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2021765326069702847",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_045",
+    "title": "The Well — Physics Dataset",
+    "description": "Bilimsel makine öğrenmesi modelleri için PolymathicAI'ın büyük ölçekli fizik simülasyonu veri setini kullanabilirsiniz. PyTorch ile birlikte eğitim pipeline'larına entegre ederek fizik tahmin modelleri geliştirebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/PolymathicAI/the_well",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2021504081869643917",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_046",
+    "title": "Logo Portfolio — Ramin Nasibov",
+    "description": "Marka kimliği tasarımı için ilham ve referans olarak Ramin Nasibov'un profesyonel logo tasarım portföyünden faydalanabilirsiniz. Dribbble ve Behance ile birlikte inceleyerek tasarım trendlerini takip edebilirsiniz.",
+    "category": "image",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://nasibov.me/logofolio/"
+      ]
+    },
+    "x_link": "https://x.com/RaminNasibov/status/2020273516424147313",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_047",
+    "title": "WG-Easy (WireGuard VPN)",
+    "description": "Tek komutla Docker kurulumu, web tabanlı yönetim paneli ve basit istemci yönetimiyle WireGuard VPN kurmanın en kolay yolundan faydalanabilirsiniz. Pi-hole ile birlikte kurarak hem VPN hem de reklam engelleme altyapısı oluşturabilirsiniz.",
+    "category": "security",
+    "links": {
+      "github": "https://github.com/wg-easy/wg-easy",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/hrrcnes/status/2020860119525847473",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_048",
+    "title": "microsoft/TRELLIS.2-4B",
+    "description": "2D fotoğrafları 3D modellere dönüştürmek için Microsoft TRELLIS 2 4B görüntüden 3D üretim modelini kullanabilirsiniz. Blender ile birlikte entegre ederek fotoğraf tabanlı 3D asset üretim pipeline'ı kurabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/microsoft/TRELLIS.2-4B",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2020709840117711321",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_049",
+    "title": "Stirling PDF",
+    "description": "PDF birleştirme, bölme, döndürme, dönüştürme, OCR ve sıkıştırma işlemlerini tek bir araçla yapabilir; self-hosted ve gizlilik odaklı bu çözümden faydalanabilirsiniz. Paperless-ngx ile birlikte kullanarak tam kapsamlı dijital belge yönetim sistemi kurabilirsiniz.",
+    "category": "data",
+    "links": {
+      "github": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "huggingface": "",
+      "other": [
+        "https://docs.stirlingpdf.com/"
+      ]
+    },
+    "x_link": "https://x.com/MertMurat9959/status/2019307630288929154",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_050",
+    "title": "Awesome Electronics",
+    "description": "Elektronik alanında öğretici kaynaklar, araçlar, bileşenler, PCB tasarımı ve mikrodenetleyicilere ait bu kapsamlı listeden faydalanabilirsiniz. Arduino projeleri geliştirirken referans olarak bu koleksiyonu kullanabilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "https://github.com/kitspace/awesome-electronics",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2018783049396146290",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_051",
+    "title": "Data Science Cheatsheet",
+    "description": "İstatistik, ML algoritmaları, Python, SQL ve görselleştirmeyi kapsayan bu kapsamlı veri bilimi kopya kağıdını yazdırılabilir PDF formatında kullanabilirsiniz. Hızlı başvuru için masa başında bulundurabilir, kurs notlarınızın yanında referans olarak değerlendirebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/aaronwangy/Data-Science-Cheatsheet?tab=readme-ov-file",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/mehmetsongur_/status/2018754247685210150",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_052",
+    "title": "Open Culture — Free Courses & Books",
+    "description": "Dünya genelindeki en iyi üniversitelerin ücretsiz çevrimiçi kurslarına, ders kitaplarına, sesli kitaplarına ve eğitim materyallerine erişebilir; self-directed öğrenme sürecinizi zenginleştirebilirsiniz. Coursera veya edX ile birlikte değerlendirerek yapılandırılmış sertifika programlarını tamamlayabilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.openculture.com/freeonlinecourses"
+      ]
+    },
+    "x_link": "https://x.com/mehmetsongur_/status/2018675918911254674",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_053",
+    "title": "openai/whisper-large-v3-turbo",
+    "description": "OpenAI Whisper large-v3 modeline yakın doğrulukla çok daha hızlı ses tanıma için Whisper large-v3-turbo modelinden faydalanabilirsiniz. Faster-Whisper ile birlikte kullanarak yerel transkripsiyon pipeline'larınızı hızlandırabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/openai/whisper-large-v3-turbo",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2018113778832064543",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_054",
+    "title": "MiniMax AI",
+    "description": "Yüksek kaliteli video üretimiyle öne çıkan bu AI platformundan metin, görüntü, video ve müzik üretimi için faydalanabilirsiniz. Runway ile karşılaştırarak video üretim ihtiyaçlarınıza en uygun platformu seçebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.minimax.io/"
+      ]
+    },
+    "x_link": "https://x.com/brkguzel/status/2018374221110386789",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_055",
+    "title": "BMAD Method",
+    "description": "Tanımlı rollerle çok ajanlı AI sistemleri oluşturmak için bu yapılandırılmış davranışsal geliştirme metodolojisinden faydalanabilirsiniz. CrewAI veya AutoGen ile birlikte uygulayarak ajan rol tanımlarınızı daha sistematik hale getirebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/ssarisen/status/2017578184405856367",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_056",
+    "title": "Mingcute Icons",
+    "description": "3000+ ikonu kapsayan bu tutarlı ve güzel ikon kütüphanesini kullanabilir; çizgi, dolu ve çift ton gibi farklı stillerde ticari projelerde ücretsiz faydalanabilirsiniz. Figma veya Tailwind CSS ile birlikte kullanarak tasarım tutarlılığınızı kolayca sağlayabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/mingcute-design/mingcute-icons",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2016796643648036983",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_057",
+    "title": "ChatDOC/OCRFlux-3B",
+    "description": "Karmaşık düzenler, tablolar ve çok dilli metinler de dahil olmak üzere belge anlama için bu 3B OCR modelinden faydalanabilirsiniz. Marker veya Surya ile birlikte değerlendirerek PDF içerik çıkarma iş akışlarınız için en doğru sonucu verecek çözümü bulabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/ChatDOC/OCRFlux-3B",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2016637408771789065",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_058",
+    "title": "Syntopic Reading with Claude",
+    "description": "Birden fazla kaynağı aynı anda analiz ederek desen ve çelişkileri bulmak için Claude ile sentetik okuma yapma konusundaki bu rehberden faydalanabilirsiniz. Obsidian ile birlikte kullanarak araştırma notlarınızı bağlantılı bir bilgi tabanına dönüştürebilirsiniz.",
+    "category": "guides",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://pieterma.es/syntopic-reading-claude/"
+      ]
+    },
+    "x_link": "https://x.com/DanielMiessler/status/2016580170266935450",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_059",
+    "title": "DeepLearning.AI — Document AI Course",
+    "description": "OCR'dan ajanlı belge çıkarmaya kadar modern belge işleme pipeline'larını kapsayan bu ücretsiz DeepLearning.AI kursundan faydalanabilirsiniz. LangChain ile birlikte pratiğe dökerek kendi belge işleme sisteminizi geliştirebilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.deeplearning.ai/courses/",
+        "https://learn.deeplearning.ai/courses/document-ai-from-ocr-to-agentic-doc-extraction/lesson/60su3505/introduction"
+      ]
+    },
+    "x_link": "https://x.com/Sumanth_077/status/2016855198384476453",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_060",
+    "title": "BitNet (Microsoft)",
+    "description": "Her ağırlığın 1 bit olduğu Microsoft'un 1-bit LLM framework'üyle büyük modelleri aşırı verimli şekilde çalıştırabilirsiniz. llama.cpp ile birlikte değerlendirerek edge cihazlar için uygun model servis altyapısı kurabilirsiniz.",
+    "category": "llm",
+    "links": {
+      "github": "https://github.com/microsoft/BitNet",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/oliviscusAI/status/2016841359051649339",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_061",
+    "title": "Kimi K2.5 (GGUF)",
+    "description": "Unsloth tarafından GGUF formatına dönüştürülen Kimi K2.5 modelini yerel çıkarım için kullanabilir; iyi performansla nicelenmiş versiyonundan faydalanabilirsiniz. Ollama veya LM Studio ile birlikte çalıştırabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF",
+      "other": [
+        "https://unsloth.ai/docs/models/kimi-k2.5"
+      ]
+    },
+    "x_link": "https://x.com/UnslothAI/status/2016511345311834293",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_062",
+    "title": "Free Python & AI Learning Resources (Google Drive)",
+    "description": "Python, AI ve veri bilimi için ücretsiz öğrenme kaynakları içeren bu Google Drive koleksiyonundan faydalanabilirsiniz. Kaggle kurslarıyla birlikte takip ederek pratik veri bilimi becerilerinizi geliştirebilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://drive.google.com/drive/u/0/folders/1CgN7DE3pNRNh_4BA_zrrMLqWz6KquwuD"
+      ]
+    },
+    "x_link": "https://x.com/AbrahamOkah2/status/2016467184826851577",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_063",
+    "title": "Data Analytics Resources (Google Drive)",
+    "description": "Veri analitiği öğrenme materyalleri, araçlar ve referanslar içeren bu Google Drive koleksiyonundan faydalanabilirsiniz. Power BI veya Tableau öğrenirken ek kaynak olarak kullanabilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://drive.google.com/drive/u/0/folders/1P3T3le8QssxC73IdGubN-nER72Ouw9X5"
+      ]
+    },
+    "x_link": "https://x.com/JOBCORNER247/status/2016538612691534223",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_064",
+    "title": "Free Programming Courses Collection",
+    "description": "MIT algoritmaları, Java, CS temelleri, web tasarımı, Docker, Kubernetes, DevOps, CI/CD, Python veri analizi, Google ML, Derin Öğrenme, Excel, Tableau, MongoDB, Kafka ve Redis dahil kapsamlı ücretsiz kurs listesinden faydalanabilirsiniz. Kendi öğrenme yolunuzu oluşturmak için bu kaynakları aşamalı olarak takip edebilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.youtube.com/playlist?list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB",
+        "https://www.scaler.com/topics/course/java-beginners/",
+        "https://www.youtube.com/playlist?list=PLIJrr73KDmRw2Fwwjt6cPC_tk5vcSICCu",
+        "https://learn.saylor.org/enrol/index.php?id=65",
+        "https://learn.saylor.org/course/view.php?id=863",
+        "https://www.freecodecamp.org/learn/responsive-web-design-v9/",
+        "https://www.youtube.com/playlist?list=PLC3y8-rFHvwg9D7EOSEBabuutIdKZN5V3",
+        "https://www.youtube.com/watch?v=f8Z9JyB2EIE",
+        "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iqfAag3a_BKEX1N43uJutw",
+        "https://dotnet.microsoft.com/en-us/learn/csharp",
+        "https://alison.com/course/diploma-in-c-programming-revised-2017",
+        "https://cognitiveclass.ai/courses/docker-essentials",
+        "https://www.simplilearn.com/learn-kubernetes-basics-free-course-skillup",
+        "https://openclassrooms.com/en/courses/7853556-discover-the-devops-methodology",
+        "https://www.simplilearn.com/free-ci-cd-online-training-course-skillup",
+        "https://cognitiveclass.ai/courses/data-analysis-python",
+        "https://learn.saylor.org/course/view.php?id=504",
+        "https://developers.google.com/machine-learning/crash-course?hl=tr",
+        "https://introtodeeplearning.com/",
+        "https://www.simplilearn.com/learn-business-analytics-excel-fundamentals-skillup",
+        "https://www.tableau.com/learn/training",
+        "https://learn.mongodb.com/",
+        "https://developer.confluent.io/courses/#fundamentals",
+        "https://university.redis.io/academy"
+      ]
+    },
+    "all_links": [
+      "https://www.youtube.com/playlist?list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB",
+      "https://www.scaler.com/topics/course/java-beginners/",
+      "https://www.youtube.com/playlist?list=PLIJrr73KDmRw2Fwwjt6cPC_tk5vcSICCu",
+      "https://learn.saylor.org/enrol/index.php?id=65",
+      "https://learn.saylor.org/course/view.php?id=863",
+      "https://www.freecodecamp.org/learn/responsive-web-design-v9/",
+      "https://www.youtube.com/playlist?list=PLC3y8-rFHvwg9D7EOSEBabuutIdKZN5V3",
+      "https://www.youtube.com/watch?v=f8Z9JyB2EIE",
+      "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iqfAag3a_BKEX1N43uJutw",
+      "https://dotnet.microsoft.com/en-us/learn/csharp",
+      "https://alison.com/course/diploma-in-c-programming-revised-2017",
+      "https://cognitiveclass.ai/courses/docker-essentials",
+      "https://www.simplilearn.com/learn-kubernetes-basics-free-course-skillup",
+      "https://openclassrooms.com/en/courses/7853556-discover-the-devops-methodology",
+      "https://www.simplilearn.com/free-ci-cd-online-training-course-skillup",
+      "https://cognitiveclass.ai/courses/data-analysis-python",
+      "https://learn.saylor.org/course/view.php?id=504",
+      "https://developers.google.com/machine-learning/crash-course?hl=tr",
+      "https://introtodeeplearning.com/",
+      "https://www.simplilearn.com/learn-business-analytics-excel-fundamentals-skillup",
+      "https://www.tableau.com/learn/training",
+      "https://learn.mongodb.com/",
+      "https://developer.confluent.io/courses/#fundamentals",
+      "https://university.redis.io/academy"
+    ],
+    "status": "active",
+    "note": "Contains 24 links"
+  },
+  {
+    "id": "tw_065",
+    "title": "Stanford Free Courses (YouTube)",
+    "description": "Makine Öğrenmesi, NLP, Derin Öğrenme, Pekiştirmeli Öğrenme ve Bilgisayarla Görme dahil 11 Stanford YouTube kursunu ücretsiz izleyebilirsiniz. fast.ai pratik kurslarıyla birlikte takip ederek hem teorik hem uygulamalı AI temelleri edinebilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU",
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rNRRGdS0rBbXOUGA0wjdh1X",
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2",
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rP8nAmISxFINlGKSK4rbLKh",
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX",
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rPt5D0zs3YhbWSZA8Q_DyiJ",
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D",
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16",
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8",
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rObv1FMizXqumgVVdzX4_05",
+        "https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_"
+      ]
+    },
+    "all_links": [
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU",
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rNRRGdS0rBbXOUGA0wjdh1X",
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2",
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rP8nAmISxFINlGKSK4rbLKh",
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX",
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rPt5D0zs3YhbWSZA8Q_DyiJ",
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D",
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16",
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8",
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rObv1FMizXqumgVVdzX4_05",
+      "https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_"
+    ],
+    "status": "active",
+    "note": "Contains 11 links"
+  },
+  {
+    "id": "tw_066",
+    "title": "Math Roadmap for Machine Learning",
+    "description": "Lineer cebir, kalkülüs, olasılık, istatistik ve optimizasyonu kapsayan görsel ML matematik öğrenme haritasından faydalanabilirsiniz. 3Blue1Brown videolarıyla birlikte izleyerek matematiksel kavramları sezgisel biçimde kavrayabilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://thepalindrome.org/p/the-roadmap-of-mathematics-for-machine-learning"
+      ]
+    },
+    "x_link": "https://x.com/TivadarDanka/status/2016495072724787257",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_067",
+    "title": "Free ML & AI Books Collection",
+    "description": "NYU ML Temelleri, Understanding Deep Learning, Karar Verme, Goodfellow Derin Öğrenme, Sutton/Barto Pekiştirmeli Öğrenme, MARL ve ML'de Adalet dahil ücretsiz makine öğrenmesi ders kitapları koleksiyonundan faydalanabilirsiniz. Coursera kurslarını tamamladıktan sonra daha derin teorik anlayış için bu kitaplara başvurabilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://cs.nyu.edu/~mohri/mlbook/",
+        "https://udlbook.github.io/udlbook/",
+        "https://algorithmsbook.com/",
+        "https://www.deeplearningbook.org/",
+        "https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf",
+        "https://watermark02.silverchair.com/book_9780262374026.pdf",
+        "https://marl-book.com/download/",
+        "https://watermark02.silverchair.com/book_9780262380355.pdf",
+        "https://fairmlbook.org/pdf/fairmlbook.pdf"
+      ]
+    },
+    "all_links": [
+      "https://cs.nyu.edu/~mohri/mlbook/",
+      "https://udlbook.github.io/udlbook/",
+      "https://algorithmsbook.com/",
+      "https://www.deeplearningbook.org/",
+      "https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf",
+      "https://watermark02.silverchair.com/book_9780262374026.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAykwggMlBgkqhkiG9w0BBwagggMWMIIDEgIBADCCAwsGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMS-AsAFMd082PwKabAgEQgIIC3BQtjMZBNtW4Sg9AfkddUudwxBLkxODBeImBU4GGAHtX5cxbCX2JB5QzjzqeIEgpTzkWgXOSuk-s_NGFZfMgjD5AX8XM4pt7IYTOkvcFta6GD8TZCtXAtUmw_5VG2Wmy6kGPWMmhaQ-OkUWsNWRME_KBKUAmvZp2N8jKmu6-7O92_8yvlCeRSep3bH1yVybrGqF8JoebGWsVbah79qACYpd6lLnRiCxtq2fi3TOx6oTzwRtD7s_WjzG2-knedNZ1VoB6aJWdfGMf4-EAT2JWEeclIeU5NZXRL8fRT94NhdyrVEB8ZAVXhJlJ0Jmp21k9ohwx0jMykEFPrKQ79AzrbD-6Q3SezsgDWnlbVq60Q7K3MlDZBYt9QBiQUcsXWzQblSbN-7Tk7U-F9pVNa16_9B5HgNKwEI0hkUuvhuIuQhO9JXbSTG1xY5RZVrOG9OETKnEeRAqq4UXmv1IHgMsHxYsF1_wnZfxLHJC2hf4fUddYARmX-csrxt7QGqXAk5JLscOMggmncfxdvQfEHrSXIZjXgROc_1Oy-b1yzZUP8gxd_3gP_I0Y2DvZEKD-HKj3tnvrJth9MaARMAft5mP6aC6NIW-g7NFGWLwXmsauNMItp0lsG2smW9xk4bfTZOMU4m4CHravyncWLARRuWkt4Nea8goadp_qsR-RgEBCwXi89uETjMTKFpD_VQeuMsgprAjEdyE3Ejy7XYys-rVZyTE_SxTtzdjVrN8PWLIShJEivPx9P-c3mzhSJQspYSAUHzlCyJTbp0CgTiTE8FNhY0h8kK5h-Wq0GS5pdSQtaIPO6Ej-tRGNF3O0CIBMKAh28RXeW-KD3nrpCEZFY0ncRJfXy64IX1_ixQ1GWUbaoWAWde48twRTjK3ItaXSRz8hCRRHkrM5COdMRTqlnZH7vtQ14jlocCr9fi12v0BWJssyvjB46hntYsCmhew-47YsMZRwD920xwlrJLHvPA",
+      "https://marl-book.com/download/",
+      "https://watermark02.silverchair.com/book_9780262380355.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAygwggMkBgkqhkiG9w0BBwagggMVMIIDEQIBADCCAwoGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMShwKYTvP3S9K-P-VAgEQgIIC2xCBVzPQB4swj_HgDMSGMYYobdilVF7SrUSfaMkapaNq3_gKSX-WvF2FlqlQNiATMr7EcL7wXNeung7NlkEXyVf6S4XCj-Gt4xaC_WWovEoc1cry6N6hMz-_uVUsKDDi8hi7gfgsY8rulLMls-MLW8fFyvJC8LxGCZSIU6UhRJfsd-USWhNBuJEG8x2Jk2jy1XW0zdfTwi1XqWIDNi51jBjHETo5i3SnmsXE1qnJaKXlEKGI1IKL8Fn2qo0XlnfXFWSwivU17s8cZrFXr7o5UnbwIfWfOXgs1gLAYSzC43iY0kOob0QrrlYEpSsorh4QljtCLnCi1zscZsFYtO5-cGFrgzMDYwiwXuWjubbeb0O0LLEmaVvx_WvnT__i1ABTv_I-D2baOOff5CyH-_5b825cU5ng6XW5ASxsm5mRndcMCzdR3iY2BO9yOAIpOxJoomtDseZ_HQWkMEygMEQaxBys_b9AUk1FliFSDYTcn3zlRN_HW4xVbFbuTC44K_8Ag-XYurpXm-ohWEMlaDMMUaGymRdrCS6jzLvAc2JfqSiD-X6tAMAdxuI0p_TFIWr6ROkhSGizKmZCofyByUlpvHDnhSFMFFIK22EjFtC_JvXWkiOZV05twT7heSb9ktPFk3DY_ICE9yb00pP5laOS-PwZ8f8wq1nw4M_CpUxISroHl2oPit2fD28NZb-Z_5dSDbFe3caXImjGZUGJ7_FwD5gI9FwJ0nolciNsr2C6k-EXWgHNoxejK54V5S6--50WA1mpXpmEC6zVMdX3bAlLHzZYvSkVPQ_vFMvxcTUcLWXHwUpAWu2yHGmJ6wpyZYRvWsyh36QMCNAE-x-0tQt2Rp3RBk1CwySsp5KJJ6doJU1Q72oQkEuf-Lno59vKwANRv2fXx5nRKshXZwwanKiWzm-0G-2_yOnuP9yjHB5MlyEkezd-EmOBFKtVyoHptfn1EBAQhHuHxavgPgqC",
+      "https://fairmlbook.org/pdf/fairmlbook.pdf"
+    ],
+    "status": "active",
+    "note": "Contains 9 links"
+  },
+  {
+    "id": "tw_068",
+    "title": "ByteDance/ContentV-8B",
+    "description": "Görüntüler, belgeler ve karma medya içerikleri analiz etmek için ByteDance'ın 8B içerik anlama modelinden faydalanabilirsiniz. Belge sınıflandırma veya görsel soru yanıtlama uygulamalarında Hugging Face pipeline ile birlikte kullanabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/ByteDance/ContentV-8B",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2015716431837663500",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_069",
+    "title": "Andrej Karpathy Skills",
+    "description": "Büyük dil modellerinin nasıl çalıştığını anlatan Andrej Karpathy'nin popüler eğitim videosundan faydalanabilirsiniz; LLM'leri sıfırdan inşa etme sürecini adım adım anlatır. GPT-2'yi sıfırdan yazan nanoGPT reposuyla birlikte takip ederek uygulamalı öğrenme yapabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/jiayuan_jy/status/2016000962641723668",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_070",
+    "title": "Multios USB",
+    "description": "Büyük ölçekli model eğitimi için kayıp fonksiyonu seçimi, öğrenme hızı zamanlaması ve optimizasyon hileleri hakkındaki bu araştırma makalesinden faydalanabilirsiniz. Transformers kütüphanesiyle birlikte uygulayarak model eğitim süreçlerinizi iyileştirebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/Mexit/MultiOS-USB",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2016207505580232800",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_071",
+    "title": "How to Remember Everything (PDF)",
+    "description": "Yapılandırılmamış web verilerini LLM eğitimi için temiz, yapılandırılmış veri setlerine dönüştürmek amacıyla bu veri kurasyonu pipeline'ından faydalanabilirsiniz. Hugging Face Datasets ile birlikte kullanarak kendi özel veri setlerinizi oluşturabilirsiniz.",
+    "category": "guides",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/how-to-remember-everything-you/1031.pdf"
+      ]
+    },
+    "x_link": "https://x.com/SciencNews/status/2015852423487906015",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_072",
+    "title": "Columbia University ML Course",
+    "description": "Açık kaynaklı büyük dil modellerini yerel ortamda kolayca çalıştırmak için Ollama'dan faydalanabilirsiniz; GPU veya CPU ile Llama, Mistral ve diğer modelleri indirip kullanabilirsiniz. Open WebUI ile birlikte kurarak tarayıcı tabanlı ChatGPT benzeri yerel bir arayüz elde edebilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.cs.columbia.edu/~verma/classes/ml/index.html"
+      ]
+    },
+    "x_link": "https://x.com/Riazi_Cafe_en/status/2016159006491082846",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_073",
+    "title": "jbochi/madlad400-3b-mt",
+    "description": "Microsoft Phi-4 modelini GGUF formatında yerel çıkarım için kullanabilir; Phi-4'ün kompakt boyutuna rağmen güçlü performansından faydalanabilirsiniz. LM Studio ile birlikte masaüstünüzde kolayca çalıştırabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/jbochi/madlad400-3b-mt",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2015829678775566609",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_074",
+    "title": "moonshotai/Kimi-K2.5",
+    "description": "İngilizce'den Türkçe'ye çeviri için Helsinki-NLP'nin bu sinir makine çevirisi modelinden faydalanabilirsiniz; OPUS-MT projesinin bir parçasıdır. FastAPI ile birlikte sararak kendi çeviri API'nizi geliştirebilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/moonshotai/Kimi-K2.5",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2016117520437281149",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_075",
+    "title": "Skill Seekers",
+    "description": "Türkçe metni İngilizce'ye çevirmek için bu Helsinki-NLP modelinden faydalanabilirsiniz; temel çeviri görevleri için iyi doğruluk sunar. Django veya Flask tabanlı uygulamalarınıza kolayca entegre edebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2016146344444940718",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_076",
+    "title": "WonderZoom",
+    "description": "WireGuard VPN'i Docker ile kolayca kurabilir ve web tabanlı yönetim paneli üzerinden istemcileri yönetebilirsiniz. Traefik reverse proxy ile birlikte güvenli uzaktan erişim altyapısı oluşturabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/jin-cao-tma/WonderZoom",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2015993545207718240",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_077",
+    "title": "Microelectronic Circuits (Sedra/Smith)",
+    "description": "Görsel tabanlı LLM eğitimi için gerçek dünya kullanıcı arayüzü ekran görüntüleri veri setinden faydalanabilirsiniz. Hugging Face Datasets ile birlikte kullanarak UI anlama modellerinizi ince ayarlayabilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://learninglink.oup.com/access/sedra8e"
+      ]
+    },
+    "x_link": "https://x.com/oktayarslan/status/2015723189742256429",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_078",
+    "title": "lightonai/LightOnOCR-2-1B",
+    "description": "Ücretsiz, açık kaynaklı ve self-hosted Google Analytics alternatifinden faydalanabilir; gizlilik dostu web analitik verileri toplayabilirsiniz. Coolify veya Dokku ile birlikte sunucunuza kolayca konuşlandırabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/lightonai/LightOnOCR-2-1B",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2015542787626967139",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_079",
+    "title": "Lifeforge",
+    "description": "Sıfırdan LLM uygulamaları geliştirmeyi öğrenmek için bu uygulamalı AI programlama kitabından faydalanabilirsiniz; embeddings, RAG ve fine-tuning konularını kapsamaktadır. LangChain belgeleriyle birlikte takip ederek öğrendiklerinizi gerçek projelere uygulayabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/Lifeforge-app/lifeforge",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2015643432815907156",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_080",
+    "title": "Fclones GUI",
+    "description": "Büyük boyutlu dil modelleri için gelişmiş model paralel çıkarım ve servis altyapısından faydalanabilirsiniz. vLLM ile karşılaştırarak production ortamınız için en uygun servis çözümünü belirleyebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/pkolaczk/fclones-gui",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2015390491441828305",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_081",
+    "title": "OpenAPK — Alternative App Store",
+    "description": "Nükleer bilim ve mühendisliği için Python tabanlı hesaplamalı araçlar koleksiyonundan faydalanabilirsiniz. Scientific Python ekosistemiyle (NumPy, SciPy) birlikte kullanarak nükleer simülasyon ve analiz çalışmaları yapabilirsiniz.",
+    "category": "productivity",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://alternativeto.net/software/openapk/about/"
+      ]
+    },
+    "x_link": "https://x.com/AlternativeTo/status/2015484841534374324",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_082",
+    "title": "Personal Drive",
+    "description": "Bilimsel araştırmalarda Claude'u kullanmak için kişiselleştirilmiş prompt'lar ve iş akışları hakkındaki bu rehberden faydalanabilirsiniz. Zotero ile birlikte kullanarak akademik okuma ve yazma süreçlerinizi hızlandırabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/gyaaniguy/personal-drive",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2015531168221868223",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_083",
+    "title": "Web ScreenRec",
+    "description": "Microsoft Azure AI Foundry'de çok ajanlı sistemler oluşturmak için bu resmi Azure lab çalışmasından faydalanabilirsiniz. Azure Functions ile birlikte kullanarak üretim düzeyinde ajan orkestrasyon altyapısı kurabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/Zhoros/Web-ScreenRec",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2015157316740387239",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_084",
+    "title": "Netventory",
+    "description": "Resimlere dayalı 3D sahne oluşturmak için Gaussian Splatting tekniğiyle çalışan bu araçtan faydalanabilirsiniz. NeRF Studio ile birlikte değerlendirerek 3D yeniden yapılandırma projeniz için en uygun yaklaşımı seçebilirsiniz.",
+    "category": "security",
+    "links": {
+      "github": "https://github.com/RamboRogers/netventory",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2015230034965848150",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_085",
+    "title": "Password Manager web",
+    "description": "LLM veri toplama için web sayfalarından temiz ve yapılandırılmış içerik çıkarmak amacıyla bu web crawling framework'ünden faydalanabilirsiniz. Scrapy ile birlikte değerlendirerek büyük ölçekli veri toplama projelerinize en uygun aracı seçebilirsiniz.",
+    "category": "security",
+    "links": {
+      "github": "https://github.com/nerdylua/password-manager-web",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2015237673825308882",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_086",
+    "title": "meta-llama/Llama-3.2-1B",
+    "description": "Hızlı ve güzel arayüzüyle tüm sisteminizde anında dosya aramak için bu çapraz platform dosya arama aracından faydalanabilirsiniz. Everything (Windows) ile birlikte değerlendirerek ihtiyacınıza uygun platform seçebilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/meta-llama/Llama-3.2-1B",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2015236492453683564",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_087",
+    "title": "numind/NuMarkdown-8B-Thinking",
+    "description": "Mesajlaşma geçmişinizi farklı platformlardan dışa aktarıp arşivlemek için bu self-hosted sohbet yedekleme aracından faydalanabilirsiniz. Nextcloud ile birlikte kullanarak tüm kişisel verilerinizi kendi sunucunuzda merkezi olarak saklayabilirsiniz.",
+    "category": "models",
+    "links": {
+      "github": "",
+      "huggingface": "https://huggingface.co/numind/NuMarkdown-8B-Thinking",
+      "other": []
+    },
+    "x_link": "https://x.com/HuggingModels/status/2015002448327582171",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_088",
+    "title": "Photoview",
+    "description": "Görev takibi, alışveriş listeleri ve kişisel planlama için bu açık kaynaklı ve self-hosted yapılacaklar listesi uygulamasından faydalanabilirsiniz. Nextcloud Tasks veya Obsidian ile birlikte değerlendirerek kişisel üretkenlik sisteminizi kurabilirsiniz.",
+    "category": "image",
+    "links": {
+      "github": "https://github.com/photoview/photoview",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014927670283280719",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_089",
+    "title": "WaterCrawl",
+    "description": "Web sitelerinden büyük ölçekte temiz ve yapılandırılmış içerik çıkarmak için bu AI/LLM veri toplama web crawling framework'ünden faydalanabilirsiniz. Hugging Face Datasets ile birlikte kullanarak özel LLM eğitim veri setleri oluşturabilirsiniz.",
+    "category": "rag",
+    "links": {
+      "github": "https://github.com/watercrawl/WaterCrawl",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2015046305282773502",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_090",
+    "title": "Orange",
+    "description": "Hızlı ve güzel arayüzüyle tüm sisteminizde dosyaları anında bulmak için bu çapraz platform dosya arama aracından faydalanabilirsiniz. Alfred (macOS) ile birlikte değerlendirerek iş akışınıza en uygun arama aracını seçebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/naaive/orange",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014935314465173890",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_091",
+    "title": "Chatvault",
+    "description": "Farklı platformlardan mesajlaşma geçmişinizi dışa aktarıp depolamak için bu self-hosted sohbet yedekleme ve arşiv aracından faydalanabilirsiniz. Immich veya Nextcloud ile birlikte kullanarak dijital arşivinizi tek bir self-hosted ekosistemde birleştirebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/vitormarcal/chatvault",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014988893142102527",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_092",
+    "title": "Memos",
+    "description": "Düşüncelerinizi hızlıca yakalayan, etiketleyen ve arayabileceğiniz bu hafif self-hosted not tutma servisinden faydalanabilirsiniz; kişisel Twitter gibi çalışır. Obsidian ile birlikte değerlendirerek kısa notlar ve uzun biçimli bilgi yönetimini birbirini tamamlar şekilde kullanabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/usememos/memos",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2015061607835926876",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_093",
+    "title": "Portracker",
+    "description": "Yatırım portföyünüzü izlemek, performansı takip etmek ve getirileri görselleştirmek için bu portföy takip aracından faydalanabilirsiniz. Beancount veya Firefly III ile birlikte kullanarak kapsamlı kişisel finans takip sistemi kurabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/mostafa-wahied/portracker",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014854984181875192",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_094",
+    "title": "EasyDisplayClient",
+    "description": "Ekranlarda dashboard, görüntü ve video göstermek için bu dijital tabela istemcisinden faydalanabilirsiniz. Grafana ile birlikte kullanarak canlı sistem metriklerini ofis ekranlarında görüntüleyebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/SHINING-TECH/EasyDisplayClient",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014816724311306609",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_095",
+    "title": "Pocket TTS",
+    "description": "Edge cihazlarda çalışan Kyutai Labs'ın bu kompakt ve hızlı TTS motorundan faydalanabilirsiniz. Raspberry Pi ile birlikte kullanarak düşük gecikmeli sesli asistan uygulamaları geliştirebilirsiniz.",
+    "category": "llm",
+    "links": {
+      "github": "https://github.com/kyutai-labs/pocket-tts",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014992716845719665",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_096",
+    "title": "BrowserAI",
+    "description": "WebGPU kullanarak AI modellerini doğrudan tarayıcıda çalıştırabilir; sunucuya ihtiyaç duymadan istemci tarafı çıkarım yapabilirsiniz. Transformers.js ile birlikte kullanarak tamamen tarayıcı tabanlı AI uygulamaları geliştirebilirsiniz.",
+    "category": "agents",
+    "links": {
+      "github": "https://github.com/sauravpanda/BrowserAI",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2015027169085317277",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_097",
+    "title": "PDF3MD",
+    "description": "PDF dosyalarını temiz Markdown formatına dönüştürebilir; biçimlendirme, tablolar ve yapı korunarak LLM'lere belge besleme süreçlerini kolaylaştırabilirsiniz. LangChain document loaders ile birlikte kullanarak RAG pipeline'larınızı besleyebilirsiniz.",
+    "category": "data",
+    "links": {
+      "github": "https://github.com/murtaza-nasir/pdf3md",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014916200023597547",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_098",
+    "title": "Kima Hub",
+    "description": "AI araçlarınızı ve modellerinizi organize etmek, başlatmak ve izlemek için bu merkezi AI araç merkezinden faydalanabilirsiniz. Open WebUI ile birlikte değerlendirerek kişisel AI çalışma ortamınızı düzenleyebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/Chevron7Locked/kima-hub",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014763186625417418",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_099",
+    "title": "Warracker",
+    "description": "Ürün garantilerini takip etmek, son kullanma tarihi hatırlatmaları almak ve fişlerle belgeleri saklamak için bu garanti takip uygulamasından faydalanabilirsiniz. Paperless-ngx ile birlikte kullanarak satın alma belgelerinizi dijital arşivinizle entegre edebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/sassanix/Warracker",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014705807204446476",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_100",
+    "title": "Caddy",
+    "description": "Otomatik HTTPS, sıfır konfigürasyonlu TLS sertifikaları, reverse proxy ve yük dengeleme özellikleriyle bu güçlü web sunucusundan faydalanabilirsiniz. Traefik ile birlikte değerlendirerek self-hosted altyapınız için en uygun reverse proxy çözümünü seçebilirsiniz.",
+    "category": "security",
+    "links": {
+      "github": "https://github.com/caddyserver/caddy",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014770839820935444",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_101",
+    "title": "Swingmusic",
+    "description": "Modern arayüzü, kütüphane organizasyonu ve kendi koleksiyonunuzdan akış özelliğiyle bu güzel self-hosted müzik çalar ve yöneticisinden faydalanabilirsiniz. Navidrome ile birlikte değerlendirerek kişisel müzik sunucusu kurabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/swingmx/swingmusic",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014671420064776675",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_102",
+    "title": "Pi-Apps",
+    "description": "Oyunlar, araçlar, medya oynatıcılar ve geliştirici araçları için tek tıkla kurulum sunan Raspberry Pi uygulama mağazasından faydalanabilirsiniz. Pi-hole ile birlikte kurarak ev ağınızı hem reklam engelleyici hem de çok amaçlı bir mini sunucuya dönüştürebilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "https://github.com/Botspot/pi-apps",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014912366887027090",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_103",
+    "title": "Andrej Karpathy — AI Educator (YouTube)",
+    "description": "Eski Tesla AI Direktörü ve OpenAI kurucu üyesi Andrej Karpathy'nin video içeriklerinden faydalanabilir; üst düzey AI eğitimi ve anlayışından yararlanabilirsiniz. YouTube'daki Neural Networks serisiyle birlikte takip ederek temel derin öğrenme kavramlarını pekiştirebilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.youtube.com/watch?v=BeRnLV8EZJs"
+      ]
+    },
+    "x_link": "https://x.com/JulianGoldieSEO/status/2014306678993490257",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_104",
+    "title": "Umbrel",
+    "description": "Nextcloud, Bitcoin node, Plex ve daha fazlasını barındırmak için bu kişisel ev sunucusu işletim sisteminden faydalanabilir; herhangi bir donanım üzerinde self-hosted bulut kurabilirsiniz. Raspberry Pi ile birlikte kurarak düşük maliyetli ev sunucusu oluşturabilirsiniz.",
+    "category": "devops",
+    "links": {
+      "github": "https://github.com/getumbrel/umbrel",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014243245249737089",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_105",
+    "title": "Telegram Files",
+    "description": "Telegram üzerinden alınan dosyaları yönetmek, taramak, aramak ve kategorize etmek için bu araçtan faydalanabilirsiniz. Telegram Bot API ile birlikte kullanarak dosya yönetim iş akışlarınızı otomatize edebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/jarvis2f/telegram-files",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014522379582444031",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_106",
+    "title": "Berty",
+    "description": "Sunucu gerektirmeyen, telefon numarası zorunlu olmayan bu güvenli P2P mesajlaşma uygulamasından faydalanabilir; Bluetooth/WiFi üzerinden çevrimdışı çalışarak gerçek gizlilik sunduğundan yararlanabilirsiniz. Signal ile birlikte değerlendirerek farklı gizlilik ihtiyaçlarınıza uygun mesajlaşma araçlarını belirleyebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/berty/berty",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014411527462310068",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_107",
+    "title": "OSS Weather",
+    "description": "Temiz tasarımı, doğru tahminleri ve gizlilik odaklı yapısıyla bu açık kaynaklı güzel hava durumu uygulamasından faydalanabilirsiniz. Home Assistant ile birlikte entegre ederek hava durumu verilerini akıllı ev otomasyonlarınızda kullanabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/Akylas/oss-weather",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014266169222476137",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_108",
+    "title": "Anthropic Frontend Design Skill",
+    "description": "Anthropic'in resmi frontend-design Claude Skill referansından faydalanabilir; Claude ile production kalitesinde UI oluşturmanın en iyi uygulamalarını öğrenebilirsiniz. Diğer Anthropic skill rehberleriyle birlikte inceleyerek Claude'un yeteneklerini maksimum düzeyde kullanabilirsiniz.",
+    "category": "guides",
+    "links": {
+      "github": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/hasimpreneur/status/2014680730505277560",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_109",
+    "title": "NetAlertX",
+    "description": "Yeni cihazları, yetkisiz erişimi ve ağ değişikliklerini bildirimlerle takip etmek için bu ağ güvenlik izleme aracından faydalanabilirsiniz. Pi-hole ile birlikte kurarak ev ağınız üzerinde tam görünürlük ve kontrol sağlayabilirsiniz.",
+    "category": "security",
+    "links": {
+      "github": "https://github.com/netalertx/NetAlertX",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/DarkWebInformer/status/2014422012815380588",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_110",
+    "title": "Docspell",
+    "description": "Tam metin arama ve etiketleme özellikli bu belge yönetim sistemini tarama, OCR, organize etme ve belgeleri kolayca bulma için kullanabilirsiniz; self-hosted'dır. Paperless-ngx ile birlikte değerlendirerek eviniz veya ofisiniz için en uygun dijital arşiv çözümünü seçebilirsiniz.",
+    "category": "data",
+    "links": {
+      "github": "https://github.com/eikek/docspell",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014377140209222043",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_111",
+    "title": "Encrypted DNS Server",
+    "description": "DNS sorgularınızı dinlemeden korumak için kendi şifreli DNS sunucunuzu (DNSCrypt, DoH, DoT) kurabilir ve çalıştırabilirsiniz. Pi-hole ile birlikte kullanarak hem DNS gizliliği hem de reklam engelleme sağlayan güvenli ağ altyapısı oluşturabilirsiniz.",
+    "category": "security",
+    "links": {
+      "github": "https://github.com/DNSCrypt/encrypted-dns-server",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014281463311507887",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_112",
+    "title": "Appwrite",
+    "description": "Kimlik doğrulama, veritabanı, depolama, fonksiyonlar ve mesajlaşma özelliklerine sahip açık kaynaklı bu backend-as-a-service platformundan faydalanabilir; uygulamanızı geliştirmek için gereken her şeyi bulabilirsiniz. Firebase ile birlikte değerlendirerek self-hosted bir alternatif olarak kullanabilirsiniz.",
+    "category": "devops",
+    "links": {
+      "github": "https://github.com/appwrite/appwrite",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014354064574656813",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_113",
+    "title": "Mafl",
+    "description": "Self-hosted servisleriniz için temiz ve özelleştirilebilir bir ana sayfa oluşturmak amacıyla bu minimalist uygulama başlatıcı ve dashboard'dan faydalanabilirsiniz. Homer veya Dasherr ile birlikte değerlendirerek homelab'ınız için en uygun başlangıç sayfasını kurabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/hywax/mafl",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014675242325590370",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_114",
+    "title": "SideStore",
+    "description": "Geliştirici sertifikaları kullanarak jailbreak gerektirmeksizin iOS uygulamaları yükleyebileceğiniz alternatif uygulama mağazasından faydalanabilirsiniz. Sideloadly ile birlikte değerlendirerek iOS uygulama imzalama ve yükleme seçeneklerini karşılaştırabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/SideStore/SideStore",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014526197233774871",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_115",
+    "title": "Greg Isenberg — AI Business Ideas",
+    "description": "Greg Isenberg'in AI girişim fikirleri ve iş fırsatları hakkındaki video tartışmasından faydalanabilirsiniz. Y Combinator'ın Startup School içerikleriyle birlikte izleyerek AI çağında girişim stratejileri hakkında fikir geliştirebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://x.com/gregisenberg/status/2013363146191237574"
+      ]
+    },
+    "x_link": "https://x.com/donvito/status/2014206557987504574",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_116",
+    "title": "Frappe CRM",
+    "description": "Frappe'nin açık kaynaklı CRM'inden faydalanabilir; modern arayüzü, özelleştirilebilir yapısıyla self-hosted Salesforce alternatifi olarak kullanabilirsiniz. ERPNext ile birlikte kurarak satıştan muhasebene entegre bir iş yönetim sistemi oluşturabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/frappe/crm",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014510914091823395",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_117",
+    "title": "Netlestirici",
+    "description": "Türkçe metni netleştirmek ve sadeleştirmek için bu araçtan faydalanabilirsiniz; yazılarınızı daha anlaşılır hale getirebilirsiniz. Dil bilgisi kontrolü için LanguageTool ile birlikte kullanarak Türkçe içerik kalitenizi artırabilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://netlestirici.com/"
+      ]
+    },
+    "x_link": "https://x.com/burakuvan/status/2014401065819439224",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_118",
+    "title": "Fleetbase",
+    "description": "Araçları takip etmek, teslimatları yönetmek ve rotaları optimize etmek için bu açık kaynaklı filo yönetimi ve lojistik platformundan faydalanabilirsiniz. OpenStreetMap ile birlikte entegre ederek harita tabanlı rota optimizasyonu yapabilirsiniz.",
+    "category": "devops",
+    "links": {
+      "github": "https://github.com/fleetbase/fleetbase",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014572034966131196",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_119",
+    "title": "DeepSeek OCR App",
+    "description": "Görüntülerden yüksek doğrulukla metin çıkarmak için DeepSeek AI modeli destekli bu OCR uygulamasından faydalanabilirsiniz. Paperless-ngx ile birlikte kullanarak taranan belgelerinizi aranabilir dijital arşive dönüştürebilirsiniz.",
+    "category": "data",
+    "links": {
+      "github": "https://github.com/rdumasia303/deepseek_ocr_app",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014350232595689892",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_120",
+    "title": "Kaku",
+    "description": "Temiz ve güzel arayüzüyle dikkat dağıtmadan yazmaya odaklanmak için bu minimalist yazma uygulamasından faydalanabilirsiniz. iA Writer veya Typora ile birlikte değerlendirerek ihtiyacınıza en uygun odaklanma yazma ortamını seçebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/SupremeDeity/kaku",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014036916157456870",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_121",
+    "title": "IKEA 3D Model Download",
+    "description": "IKEA 3D modellerini .obj dosyası olarak indirmek için bu tarayıcı uzantısından faydalanabilirsiniz; projenize IKEA mobilya modelleri ekleyebilirsiniz. Blender ile birlikte kullanarak IKEA modellerini kendi iç mekan tasarım sahnelerinize dahil edebilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "https://github.com/apinanaivot/IKEA-3D-Model-Download-Button",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014105724503175309",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_122",
+    "title": "Dflow",
+    "description": "Basit Python API'siyle veri işleme pipeline'larını tanımlamak, çalıştırmak ve izlemek için bu iş akışı otomasyon framework'ünden faydalanabilirsiniz. Apache Airflow ile birlikte değerlendirerek veri mühendisliği projelerinize en uygun orkestrasyon aracını seçebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/dflow-sh/dflow",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2014163046722105516",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_123",
+    "title": "LiveContainer",
+    "description": "iOS uygulamalarını izole container'larda çalıştırabilir; ana kurulumu etkilemeden birden fazla uygulama örneğini test edebilirsiniz. Xcode Simulator ile birlikte değerlendirerek iOS uygulama geliştirme ve test ortamlarınızı düzenleyebilirsiniz.",
+    "category": "devops",
+    "links": {
+      "github": "https://github.com/LiveContainer/LiveContainer",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2013861172601110649",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_124",
+    "title": "Go-to sites to learn UI design for free",
+    "description": "UI tasarımı ücretsiz öğrenmek için gidilecek siteler listesinden faydalanabilirsiniz. Figma Community ile birlikte inceleyerek pratik tasarım projelerini teorik kaynaklarla destekleyebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://60fps.design/",
+        "https://catalogue.projectsbyif.com/",
+        "https://abtest.design/",
+        "https://www.designspells.com/",
+        "https://www.uxsnaps.com/",
+        "https://uiplaybook.dev/"
+      ]
+    },
+    "all_links": [
+      "https://60fps.design/",
+      "https://catalogue.projectsbyif.com/",
+      "https://abtest.design/",
+      "https://www.designspells.com/",
+      "https://www.uxsnaps.com/",
+      "https://uiplaybook.dev/"
+    ],
+    "status": "active",
+    "note": "Contains 6 links"
+  },
+  {
+    "id": "tw_125",
+    "title": "Bitwarden Desktop",
+    "description": "E2E şifrelemeli, çapraz platform ve self-hostable olan bu açık kaynaklı masaüstü şifre yöneticisinden faydalanabilirsiniz. Bitwarden ile birlikte değerlendirerek gizlilik ihtiyacınıza en uygun şifre yönetimi çözümünü seçebilirsiniz.",
+    "category": "security",
+    "links": {
+      "github": "https://github.com/bitwarden/desktop",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2012532576179650709",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_126",
+    "title": "Transcriber",
+    "description": "Whisper kullanarak yerel ortamda ses/video transkripsiyon yapabilir; tüm işlemler kendi makinenizde gerçekleştiğinden bulut hizmetine gerek kalmadan gizli içerikleri de transkript edebilirsiniz. Faster-Whisper ile birlikte kullanarak transkripsiyon hızınızı artırabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/Br3n0k/transcriber",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2012479051156300144",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_127",
+    "title": "UI/UX Pro Max Skill",
+    "description": "Profesyonel tasarım kalıplarıyla production kalitesinde arayüzler üretmek için bu gelişmiş UI/UX Claude Skill'inden faydalanabilirsiniz. Frontend-design skill rehberiyle birlikte kullanarak Claude'dan tutarlı ve yüksek kaliteli UI çıktıları alabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/AIMevzulari/status/2012241684810121309",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_128",
+    "title": "Pagesource",
+    "description": "Herhangi bir web sayfasının kaynak kodunu görüntülemek ve analiz etmek için bu geliştirici aracından faydalanabilirsiniz; HTML, CSS ve JavaScript incelemesi yapabilirsiniz. Tarayıcı DevTools ile birlikte değerlendirerek web geliştirme ve tersine mühendislik iş akışlarınızı tamamlayabilirsiniz.",
+    "category": "data",
+    "links": {
+      "github": "https://github.com/timf34/pagesource",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2012046755915829267",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_129",
+    "title": "RepairKit",
+    "description": "Yaygın sorunları düzeltmek, sistem dosyalarını temizlemek ve performansı optimize etmek için bu Windows sistem onarım araç setinden faydalanabilirsiniz. DISM ve SFC komutlarıyla birlikte kullanarak daha kapsamlı sistem onarımı yapabilirsiniz.",
+    "category": "devops",
+    "links": {
+      "github": "https://github.com/Foulest/RepairKit",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2012023825349652596",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_130",
+    "title": "Google Learn Your Way",
+    "description": "Dijital beceriler, AI ve kariyer gelişimi için Google'ın ücretsiz kişiselleştirilmiş öğrenme platformundan faydalanabilirsiniz. Coursera'nın Google sertifika programlarıyla birlikte takip ederek pratik sertifikalar elde edebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://learnyourway.withgoogle.com/"
+      ]
+    },
+    "x_link": "https://x.com/mehmetsongur_/status/2012110855165399297",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_131",
+    "title": "Local AI OCR",
+    "description": "AI modelleri kullanarak bulut hizmeti olmadan yerel ortamda OCR yapabilir; görüntüler ve taranmış belgelerden metin çıkarabilirsiniz. Tesseract ile birlikte değerlendirerek gizlilik odaklı belge işleme pipeline'ınız için en uygun çözümü seçebilirsiniz.",
+    "category": "data",
+    "links": {
+      "github": "https://github.com/th1nhhdk/local_ai_ocr",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2012107908868174000",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_132",
+    "title": "Replit Mobile Apps",
+    "description": "Replit'ten tarayıcıda iOS/Android uygulamaları oluşturup test edebilir ve yayınlayabilirsiniz. Expo ile birlikte değerlendirerek web tabanlı mobil uygulama geliştirme seçeneklerini karşılaştırabilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://blog.replit.com/mobile-apps"
+      ]
+    },
+    "x_link": "https://x.com/erhanmeydan/status/2011927043601031405",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_133",
+    "title": "DLiPA",
+    "description": "Görüntü iyileştirme, restorasyon ve manipülasyon için bu AI tabanlı derin öğrenme görüntü işleme uygulamasından faydalanabilirsiniz. Real-ESRGAN ile birlikte kullanarak görüntü süper çözünürlük ve gürültü giderme işlemleri yapabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/AhmedBafkir/DLiPA",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2011775172747895285",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_134",
+    "title": "Opencode Antigravity Auth",
+    "description": "Taklit edilmesi zor olan bu görsel desen tabanlı yeni kimlik doğrulama sisteminden faydalanabilirsiniz; kimlik avına karşı koruma mekanizması sunar. WebAuthn ile birlikte değerlendirerek parolasız kimlik doğrulama seçeneklerini keşfedebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/NoeFabris/opencode-antigravity-auth",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/ssarisen/status/2011699374100005016",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_135",
+    "title": "Clipy",
+    "description": "Kopyaladığınız her şeyi geçmişiyle takip etmek, pano geçmişini aramak ve önemli öğeleri sabitlemek için bu pano yöneticisinden faydalanabilirsiniz. Raycast (macOS) ile birlikte kullanarak kopyala-yapıştır iş akışlarınızı önemli ölçüde hızlandırabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/BankkRoll/clipy",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2011389473972515244",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_136",
+    "title": "HivisionIDPhotos",
+    "description": "Pasaport ve vize fotoğrafları için uygun arka plan, aydınlatma ve boyutlandırmayla AI destekli bu kimlik fotoğrafı oluşturucudan faydalanabilirsiniz. Resmî başvurularda kullanmadan önce boyut gereksinimlerini doğrulamak için ülkenin resmi belgelerini de kontrol edebilirsiniz.",
+    "category": "image",
+    "links": {
+      "github": "https://github.com/Zeyi-Lin/HivisionIDPhotos",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2009973743867625916",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_137",
+    "title": "shadPS4",
+    "description": "PC'de PS4 oyunlarını oynayabileceğiniz açık kaynaklı bu PlayStation 4 emülatöründen faydalanabilirsiniz; Windows, Linux ve macOS desteklenmektedir. RPCS3 (PS3 emülatörü) ile birlikte değerlendirerek PlayStation oyun kütüphanenizdeki daha geniş başlıklara erişebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/shadps4-emu/shadPS4",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/tom_doerr/status/2009958457101688888",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_139",
+    "title": "Open Source Projects — Featured",
+    "description": "opensourceprojects.dev'in bu haftalık öne çıkan açık kaynak projesini inceleyebilir; ilginç projeleri keşfedebilirsiniz. GitHub Trending ile birlikte takip ederek açık kaynak ekosistemindeki yenilikleri düzenli olarak izleyebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.opensourceprojects.dev/post/101bdfb4-f8de-404d-a5a0-8cb178aeb61d"
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_140",
+    "title": "NotebookLM Ultra Exporter (Chrome Extension)",
+    "description": "NotebookLM içeriklerini, ses özetlerini ve kaynaklarınızı dışa aktarmak için bu Chrome uzantısından faydalanabilirsiniz. Notion veya Obsidian ile birlikte kullanarak NotebookLM'deki araştırmalarınızı kişisel bilgi tabanınıza aktarabilirsiniz.",
+    "category": "productivity",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://chromewebstore.google.com/detail/notebooklm-ultra-exporter/afchokljnhhggkhedfbmkcmdagjmjchj"
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_141",
+    "title": "Dolphin",
+    "description": "Metin, görüntü ve video anlama görevleri için ByteDance'ın bu çok modlu AI modelinden faydalanabilirsiniz. Hugging Face pipeline ile birlikte entegre ederek çok modlu içerik analizi uygulamaları geliştirebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/bytedance/Dolphin",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_142",
+    "title": "APKToolGUI",
+    "description": "Android APK dosyalarını komut satırı gerektirmeksizin ayrıştırmak, değiştirmek ve yeniden derlemek için bu APKTool GUI'sinden faydalanabilirsiniz. jadx ile birlikte kullanarak Android uygulama analizi ve tersine mühendislik iş akışlarınızı tamamlayabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/AndnixSH/APKToolGUI",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_143",
+    "title": "Open Source Projects — Weekly Picks 2",
+    "description": "Açıklamalar, linkler ve topluluk bilgileriyle açık kaynak projelerin küratörlüğü yapılmış bu dizinden faydalanabilirsiniz. GitHub Trending ile birlikte takip ederek yeni ve ilginç projeleri keşfedebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.opensourceprojects.dev/post/1f745b85-559d-4022-9f09-9e1cb93926c9"
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_144",
+    "title": "Open Source Projects — Weekly Picks 3",
+    "description": "Açıklamalar, linkler ve topluluk bilgileriyle açık kaynak projelerin küratörlüğü yapılmış bu dizinden faydalanabilirsiniz. Awesome Lists koleksiyonlarıyla birlikte inceleyerek belirli alanlardaki en iyi araçları keşfedebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://www.opensourceprojects.dev/post/0753e686-e779-4883-9a64-7c0906f27e12"
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "guide_001",
+    "title": "AI Platform Setup Guide",
+    "description": "Gemini Gems, Claude Projects, Grok Projects ve Custom GPT'leri nasıl kuracağınızı anlatan bu kapsamlı rehberden faydalanabilirsiniz; her platformun güçlü yönlerini öğrenebilirsiniz: Gemini araştırma/beyin fırtınası, Claude süregelen kod tabanları, Grok gerçek zamanlı araştırma, GPT'ler üçüncü taraf entegrasyon ve otomasyon için idealdir. Kendi kullanım durumunuza en uygun platformu seçmek için her birini bu rehber eşliğinde deneyebilirsiniz.",
+    "category": "guides",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://gemini.google.com",
+        "https://claude.ai",
+        "https://grok.com",
+        "https://chat.openai.com"
+      ]
+    },
+    "x_link": "https://x.com/minchoi/status/2030285832293060670",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "guide_002",
+    "title": "Top 10 AI Projects for 2026 Jobs",
+    "description": "İş başvurularında fark yaratacak AI projeleri için bu derlenmiş listeden faydalanabilirsiniz: Pinecone ile RAG sistemleri, LangGraph ajanları, Twilio sesli AI, OpenTelemetry izleme, Unstructured belge işleme, CrewAI çok ajanlı sistemler ve Meilisearch. Portfolio'nuzu oluştururken bu projeleri adım adım tamamlayarak gerçek üretim deneyimi kazanabilirsiniz.",
+    "category": "guides",
+    "links": {
+      "github": "https://github.com/langchain-ai/langgraph",
+      "huggingface": "",
+      "other": [
+        "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+        "https://github.com/crewAIInc/crewAI",
+        "https://www.meilisearch.com/docs/home"
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": "Includes: Pinecone RAG, LangGraph, Twilio Voice, OpenTelemetry, Unstructured-IO, CrewAI, Meilisearch"
+  },
+  {
+    "id": "guide_003",
+    "title": "Skill Graphs — arscontexta",
+    "description": "Wikilink'lerle birbirine bağlı SKILL.md dosyalarından oluşan bu geçilebilir bilgi grafiği yaklaşımından faydalanabilirsiniz; tek büyük bir skill dosyası yerine birbirini referans alan küçük ve bileşenlere ayrılmış parçalar oluşturabilirsiniz. Kendi skill kütüphanenizi ilerleyici açıklama deseniyle tasarlayabilirsiniz: index → açıklamalar → linkler → bölümler → tam içerik.",
+    "category": "guides",
+    "links": {
+      "github": "https://github.com/agenticnotetaking/arscontexta",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "https://x.com/arscontexta/status/2023957499183829467",
+    "status": "active",
+    "note": "~250 connected markdown files that teach an agent how to build a knowledge base"
+  },
+  {
+    "id": "guide_004",
+    "title": "NotebookLM Uzman Prompt Örnekleri",
+    "description": "Gelişmiş NotebookLM protokolünden faydalanabilirsiniz: 5 temel soruyla derinlemesine analiz yapabilir, PM/Bilim insanı/Öğretmen gibi profesyonel personalar kullanabilir, NASA onaylı 'ilginç parçalar' keşfi, boşluk analizi, quiz formatında ses üretimi, çok dilli podcast ve kavram sentezi yapabilirsiniz. NotebookLM'i güçlü bir araştırma motoruna dönüştürmek için bu protokolü düzenli çalışma akışınıza entegre edebilirsiniz.",
+    "category": "guides",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": "Turkish content — 16 advanced prompts for document analysis"
+  },
+  {
+    "id": "guide_005",
+    "title": "Claude Code SDK — Building Agents",
+    "description": "Claude Code SDK ile AI ajanları geliştirmek için bu kapsamlı TypeScript rehberinden faydalanabilirsiniz: query() fonksiyonu, allowedTools, Zod şemalarıyla yapılandırılmış çıktı, paralel çalışma için alt ajanlar ve izin yönetimi konularını kapsayan çok dosyalı kod inceleme ajan örneğiyle öğrenebilirsiniz. Kendi ajan uygulamalarınızı geliştirirken bu örnek projeyi temel şablon olarak kullanabilirsiniz.",
+    "category": "guides",
+    "links": {
+      "github": "https://github.com/anthropics/claude-code",
+      "huggingface": "",
+      "other": [
+        {"label": "SDK Docs", "url": "https://docs.anthropic.com/en/docs/claude-code/sdk"},
+        {"label": "npm Package", "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code"}
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": "V1 SDK — V2 in development"
+  },
+  {
+    "id": "guide_006",
+    "title": "23 Uzman'dan 36 Farklı Claude Beceri Tanımlaması",
+    "description": "23 farklı içerik üreticisinin gerçek iş akışlarından derlenen 37 Claude Skills örneğini içeren kapsamlı bir rehber. Yazarlar ve içerik üreticileri için SEO optimizasyonu, haber bülteni fikirleme ve yayın düzeltme; pazarlamacılar için sunum oluşturma, müşteri profili çıkarma ve e-posta dönüşüm testi; geliştiriciler için frontend tasarım, otomatik UI test ve MCP hata ayıklama; iş operasyonları için toplantı analizi, envanter yönetimi ve marka onboarding; kariyer gelişimi için iş ilanı analizi ve mikro-deney skill'leri yer almaktadır. Her skill, bir kez yazılıp tüm oturumlarda yeniden kullanılabilen yapılandırılmış talimat dosyalarıdır — tutarlılık, hız ve otomasyon sağlar.",
+    "category": "guides",
+    "links": {
+      "github": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "huggingface": "",
+      "other": [
+        "https://github.com/obra/superpowers",
+        "https://rube.app/",
+        {"label": "Substack Rehber", "url": "https://aiblewmymind.substack.com/p/claude-skills-36-examples"}
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": "37 skills from 23 creators — Writers, Marketers, Developers, Operations, Career"
+  },
+  {
+    "id": "guide_007",
+    "title": "Free Education Resources",
+    "description": "Harvard CS50 Python, Saylor.org (Matematik, CS), Microsoft PowerBI eğitimi ve daha fazlasını içeren bu ücretsiz eğitim platformları koleksiyonundan faydalanabilirsiniz. freeCodeCamp ile birlikte takip ederek sertifika alabilir ve portfolyonuzu güçlendirebilirsiniz.",
+    "category": "courses",
+    "links": {
+      "github": "",
+      "huggingface": "",
+      "other": [
+        "https://cs50.harvard.edu/python/",
+        "https://learn.saylor.org/course/index.php?categoryid=9",
+        "https://learn.microsoft.com/tr-tr/training/modules/get-started-with-power-bi/2-using-power-bi"
+      ]
+    },
+    "x_link": "https://x.com/Shruti_0810/status/2030174538303246349",
+    "status": "active",
+    "note": "Python, Excel, PowerBI, Mathematics, Data Analysis"
+  },
+  {
+    "id": "tw_145",
+    "title": "LogoCreator",
+    "description": "AI destekli logo oluşturma aracından faydalanabilir; marka adınızı ve stilinizi girerek saniyeler içinde profesyonel logolar üretebilirsiniz. Figma veya Canva ile birlikte kullanarak çıktıları marka kimliği tasarımınıza hızlıca entegre edebilirsiniz.",
+    "category": "image",
+    "links": {
+      "github": "https://github.com/Nutlope/logocreator",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_146",
+    "title": "yt-dlp",
+    "description": "YouTube ve 1000+ platformdan video/ses indirebilir; gelişmiş format seçimi, hız sınırı ve çerez desteğiyle medya arşivleme işlemleri yapabilirsiniz. FFmpeg ile birlikte kullanarak indirilen dosyaları otomatik olarak dönüştürebilir ve düzenleyebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/yt-dlp/yt-dlp",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_147",
+    "title": "ConvertX",
+    "description": "Self-hosted dosya dönüştürme platformundan faydalanabilir; 500+ format desteğiyle görüntü, video, belge ve ses dosyalarınızı tarayıcı üzerinden dönüştürebilirsiniz. Nextcloud veya Mayan EDMS gibi self-hosted araçlarla birlikte kullanarak tam bağımsız bir dosya yönetim ekosistemi kurabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/C4illin/ConvertX",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_148",
+    "title": "Hitomi-Downloader",
+    "description": "Çok platformlu medya indirme aracıyla çeşitli içerik sitelerinden toplu indirme ve playlist yönetimi yapabilirsiniz. yt-dlp ile birlikte kullanarak kapsama alanını genişletebilir, indirme kuyruklarınızı otomatize edebilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/KurtBestor/Hitomi-Downloader",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_149",
+    "title": "WorldGen",
+    "description": "AI tabanlı 3D dünya ve ortam üreticisiyle metin açıklamalarından prosedürel dünya sahneleri oluşturabilirsiniz. Blender veya Unity ile birlikte kullanarak üretilen sahneleri oyun veya simülasyon projelerinize aktarabilirsiniz.",
+    "category": "image",
+    "links": {
+      "github": "https://github.com/ZiYang-xie/WorldGen",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_150",
+    "title": "Bitwarden Server",
+    "description": "Açık kaynaklı self-hosted şifre yöneticisi sunucusundan faydalanabilir; tüm ekibiniz için kendi altyapınızda güvenli kimlik bilgisi yönetimi yapabilirsiniz. Vaultwarden (daha hafif fork) ile birlikte değerlendirerek daha düşük donanım gereksinimiyle aynı istemciyi kullanabilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "https://github.com/bitwarden/server",
+      "huggingface": "",
+      "other": [
+        {
+          "label": "Hafif Alternatif — Vaultwarden",
+          "url": "https://github.com/dani-garcia/vaultwarden"
+        }
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_151",
+    "title": "Virtual DSM",
+    "description": "Docker üzerinde Synology DSM sanal makinesi çalıştırabilir; NAS işlevlerini fiziksel donanım olmadan test edebilir ve kullanabilirsiniz. Portainer ile birlikte yöneterek container tabanlı ev sunucunuzu kolayca genişletebilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "https://github.com/vdsm/virtual-dsm",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_152",
+    "title": "WLED",
+    "description": "LED şeritler için açık kaynaklı kontrol yazılımından faydalanabilir; WiFi üzerinden animasyon ve renk efektleri programlayabilirsiniz. Home Assistant ile entegre ederek tüm akıllı ev otomasyon senaryolarınıza dahil edebilirsiniz.",
+    "category": "hardware",
+    "links": {
+      "github": "https://github.com/wled/WLED",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_153",
+    "title": "Notepad (Web)",
+    "description": "Minimal, offline-first web tabanlı not defteri uygulamasından faydalanabilir; kurulum gerektirmeksizin tarayıcıda çalışır, notlarınızı yerel olarak saklayabilirsiniz. Electron ile paketleyerek masaüstü uygulaması haline de getirebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "https://github.com/amitmerchant1990/notepad",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_154",
+    "title": "Downloader CLI",
+    "description": "Terminal üzerinden dosya indirme aracıyla ilerleme çubuğu ve hız göstergesi eşliğinde wget/curl'e modern bir alternatif olarak kullanabilirsiniz. Cron job'larla birlikte zamanlanmış indirme görevleri oluşturabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/deepjyoti30/downloader-cli",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_155",
+    "title": "Astrofox",
+    "description": "Müzik görselleştirme stüdyosundan faydalanabilir; ses dosyalarınıza tepki veren animasyonlar ve görsel efektler oluşturabilir, video olarak dışa aktarabilirsiniz. OBS ile birlikte kullanarak canlı yayınlarınıza reaktif görsel katmanlar ekleyebilirsiniz.",
+    "category": "image",
+    "links": {
+      "github": "https://github.com/astrofox-io/astrofox",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_156",
+    "title": "Awesome WireGuard",
+    "description": "WireGuard VPN araçları, rehberleri ve kaynaklarının küratörlüğü yapılmış listesinden faydalanabilir; VPN kurulum ve yönetimi için kapsamlı bir referans olarak kullanabilirsiniz. WireGuard Easy veya wg-gen-web gibi yönetim panelleriyle birlikte değerlendirerek kurulumu kolaylaştırabilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "https://github.com/cedrickchee/awesome-wireguard",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_157",
+    "title": "Ciphey",
+    "description": "Otomatik şifre çözme aracıyla şifreli metni yapıştırabilir; Base64, MD5, Caesar ve 50+ formatı otomatik olarak tanıyıp çözebilirsiniz. CTF yarışmaları veya siber güvenlik eğitimlerinde CyberChef ile birlikte kullanarak çözüm sürecinizi hızlandırabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/bee-san/Ciphey",
+      "huggingface": "",
+      "other": [
+        {
+          "label": "Tamamlayıcı — CyberChef",
+          "url": "https://gchq.github.io/CyberChef"
+        }
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_158",
+    "title": "Mayan EDMS",
+    "description": "Self-hosted belge yönetim sisteminden faydalanabilir; OCR, etiketleme ve iş akışı özellikleriyle kurumsal düzeyde dijital arşiv oluşturabilirsiniz. Paperless-ngx ile karşılaştırarak ihtiyacınıza uygun self-hosted DMS çözümünü seçebilirsiniz.",
+    "category": "other",
+    "links": {
+      "github": "https://github.com/mayan-edms/Mayan-EDMS",
+      "huggingface": "",
+      "other": [
+        {
+          "label": "Alternatif — Paperless-ngx",
+          "url": "https://github.com/paperless-ngx/paperless-ngx"
+        }
+      ]
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_159",
+    "title": "WebmGenerator",
+    "description": "Video klipler ve GIF'ler oluşturmak için bu araçtan faydalanabilir; uzun videolardan belirli sahneleri kesip WebM formatında dışa aktarabilirsiniz. yt-dlp ile birlikte kullanarak indirme ve kırpma işlemini tek bir akışta tamamlayabilirsiniz.",
+    "category": "image",
+    "links": {
+      "github": "https://github.com/dfaker/WebmGenerator",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_160",
+    "title": "Simplexity AI App",
+    "description": "Çoklu AI modeline erişim sağlayan açık kaynaklı masaüstü uygulamasından faydalanabilir; GPT, Claude ve diğer modelleri tek bir arayüzden kullanabilirsiniz. API anahtarlarınızı yöneterek farklı modelleri aynı prompt üzerinde karşılaştırabilirsiniz.",
+    "category": "agents",
+    "links": {
+      "github": "https://github.com/inulute/simplexity-ai-app",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_161",
+    "title": "WebPush iOS Example",
+    "description": "iOS için web push bildirimi entegrasyon örneğinden faydalanabilir; Safari ve iOS tarayıcılarda push notification uygulamak için referans proje olarak kullanabilirsiniz. PWA yapınızla birlikte entegre ederek native uygulama olmadan mobil bildirim altyapısı kurabilirsiniz.",
+    "category": "code",
+    "links": {
+      "github": "https://github.com/andreinwald/webpush-ios-example",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  },
+  {
+    "id": "tw_162",
+    "title": "openDAW",
+    "description": "Tarayıcı tabanlı açık kaynaklı DAW'dan (Dijital Ses İstasyonu) faydalanabilir; eklenti veya kurulum gerektirmeksizin web üzerinde müzik üretimi yapabilirsiniz. MIDI klavye veya ses arayüzü ile birlikte kullanarak gerçek zamanlı kayıt ve düzenleme iş akışı oluşturabilirsiniz.",
+    "category": "image",
+    "links": {
+      "github": "https://github.com/andremichelle/openDAW",
+      "huggingface": "",
+      "other": []
+    },
+    "x_link": "",
+    "status": "active",
+    "note": ""
+  }
+]
